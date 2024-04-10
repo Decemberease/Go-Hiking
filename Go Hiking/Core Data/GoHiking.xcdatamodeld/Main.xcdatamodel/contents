@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23B2073" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BikeRide" representedClassName="BikeRide" syncable="YES">
+        <attribute name="hikingDistance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="hikingElevations" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer"/>
+        <attribute name="hikingLatitudes" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="CLLocationDegrees"/>
+        <attribute name="hikingLongitudes" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="CLLocationDegrees"/>
+        <attribute name="hikingRouteName" optional="YES" attributeType="String"/>
+        <attribute name="hikingSpeeds" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="CLLocationSpeed"/>
+        <attribute name="hikingStartTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hikingTime" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Records" representedClassName="Records" syncable="YES">
+        <attribute name="fastestAverageSpeed" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fastestAverageSpeedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="longestHikingDistance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longestHikingDistanceDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="longestHikingTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longestHikingTimeDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="totalHikingDistance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalHikingRoutes" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalHikingTime" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="unlockedIcons" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="Bool"/>
+    </entity>
+    <entity name="UserPreferences" representedClassName="UserPreferences" syncable="YES">
+        <attribute name="colourChoice" optional="YES" attributeType="String"/>
+        <attribute name="deletionConfirmation" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="deletionEnabled" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="displayingMetrics" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="iconIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="largeMetrics" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="namedRoutes" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="selectedRoute" optional="YES" attributeType="String"/>
+        <attribute name="sortingChoice" optional="YES" attributeType="String"/>
+        <attribute name="usingMetric" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>

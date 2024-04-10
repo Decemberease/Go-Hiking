@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Go Hiking</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Bronze</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Bronze</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Bronze Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Bronze Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Dark</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Dark</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Default Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Default Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Gold</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Gold</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Gold Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Gold Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Interstellar</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Interstellar</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Interstellar Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Interstellar Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Light</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Light</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Ocean</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Ocean</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Ocean Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Ocean Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Silver</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Silver</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Silver Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Silver Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Sunset</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Sunset</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Sunset Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Sunset Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string></string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Bronze</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Bronze</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Bronze Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Bronze Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Dark</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Dark</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Default Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Default Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Gold</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Gold</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Gold Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Gold Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Interstellar</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Interstellar</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Interstellar Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Interstellar Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Light</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Light</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Ocean</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Ocean</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Ocean Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Ocean Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Silver</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Silver</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Silver Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Silver Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Sunset</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Sunset</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>Sunset Inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Sunset Inverted</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string></string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This is required to track your hiking routes while the app is closed. All of your location data will be stored solely on your device and will never be shared with anyone.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This is required to track your hiking routes. All of your location data will be stored solely on your device and will never be shared with anyone.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
