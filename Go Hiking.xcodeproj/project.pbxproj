@@ -1,0 +1,1455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1C40CE26426E740032125A /* Default Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C40CC26426E740032125A /* Default Inverted@2x.png */; };
+		9D1C40CF26426E740032125A /* Default Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C40CD26426E740032125A /* Default Inverted@3x.png */; };
+		9D1C40D626426E7F0032125A /* Default Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C40D326426E7F0032125A /* Default Inverted~ipad.png */; };
+		9D1C40D726426E7F0032125A /* Default Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C40D426426E7F0032125A /* Default Inverted-83.5@2x~ipad.png */; };
+		9D1C40D826426E7F0032125A /* Default Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C40D526426E7F0032125A /* Default Inverted@2x~ipad.png */; };
+		9D1ED54D2643CF5A005A97ED /* UIAppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1ED54C2643CF5A005A97ED /* UIAppearViewController.swift */; };
+		9D1ED55026448F4F005A97ED /* HikingHistorySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1ED54F26448F4F005A97ED /* HikingHistorySettingsView.swift */; };
+		9D2F48F72650751200094575 /* RouteNameModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F48F62650751200094575 /* RouteNameModalView.swift */; };
+		9D2F48F9265075FC00094575 /* ModalViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F48F8265075FC00094575 /* ModalViewExtension.swift */; };
+		9D2F48FB26507EC500094575 /* RouteNamingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F48FA26507EC500094575 /* RouteNamingViewModel.swift */; };
+		9D2F48FE265097F000094575 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F48FD265097F000094575 /* Category.swift */; };
+		9D3808EA26D3709C0058DE1E /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3808E926D3709C0058DE1E /* StatisticsView.swift */; };
+		9D55B9F726522D8D00B622E5 /* RouteRenameModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D55B9F626522D8D00B622E5 /* RouteRenameModalView.swift */; };
+		9D601E5626DEF6E100844CD1 /* ActivityAwardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D601E5526DEF6E100844CD1 /* ActivityAwardsViewModel.swift */; };
+		9D601E5926E0732100844CD1 /* SingleChartListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D601E5826E0732100844CD1 /* SingleChartListCellView.swift */; };
+		9D601E5B26E085B700844CD1 /* HikingChartsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D601E5A26E085B700844CD1 /* HikingChartsViewModel.swift */; };
+		9D601E5D26E0992500844CD1 /* DateDistanceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D601E5C26E0992500844CD1 /* DateDistanceExtension.swift */; };
+		9D601E5F26E09D4600844CD1 /* BarChartCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D601E5E26E09D4600844CD1 /* BarChartCellView.swift */; };
+		9D601E6126E09D9A00844CD1 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D601E6026E09D9A00844CD1 /* BarChartView.swift */; };
+		9D601E6726E6CFC900844CD1 /* Interstellar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6226E6CFC900844CD1 /* Interstellar@3x.png */; };
+		9D601E6826E6CFC900844CD1 /* Interstellar~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6326E6CFC900844CD1 /* Interstellar~ipad.png */; };
+		9D601E6926E6CFC900844CD1 /* Interstellar@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6426E6CFC900844CD1 /* Interstellar@2x~ipad.png */; };
+		9D601E6A26E6CFC900844CD1 /* Interstellar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6526E6CFC900844CD1 /* Interstellar@2x.png */; };
+		9D601E6B26E6CFC900844CD1 /* Interstellar-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6626E6CFC900844CD1 /* Interstellar-83.5@2x~ipad.png */; };
+		9D601E7126E6CFFD00844CD1 /* Interstellar Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6C26E6CFFD00844CD1 /* Interstellar Inverted@2x~ipad.png */; };
+		9D601E7226E6CFFD00844CD1 /* Interstellar Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6D26E6CFFD00844CD1 /* Interstellar Inverted@2x.png */; };
+		9D601E7326E6CFFD00844CD1 /* Interstellar Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6E26E6CFFD00844CD1 /* Interstellar Inverted-83.5@2x~ipad.png */; };
+		9D601E7426E6CFFD00844CD1 /* Interstellar Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E6F26E6CFFD00844CD1 /* Interstellar Inverted@3x.png */; };
+		9D601E7526E6CFFD00844CD1 /* Interstellar Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E7026E6CFFD00844CD1 /* Interstellar Inverted~ipad.png */; };
+		9D601E7B26E6D02200844CD1 /* Bronze-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E7626E6D02200844CD1 /* Bronze-83.5@2x~ipad.png */; };
+		9D601E7C26E6D02200844CD1 /* Bronze~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E7726E6D02200844CD1 /* Bronze~ipad.png */; };
+		9D601E7D26E6D02200844CD1 /* Bronze@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E7826E6D02200844CD1 /* Bronze@2x.png */; };
+		9D601E7E26E6D02200844CD1 /* Bronze@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E7926E6D02200844CD1 /* Bronze@2x~ipad.png */; };
+		9D601E7F26E6D02200844CD1 /* Bronze@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E7A26E6D02200844CD1 /* Bronze@3x.png */; };
+		9D601E8526E6D03E00844CD1 /* Bronze Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8026E6D03E00844CD1 /* Bronze Inverted@2x~ipad.png */; };
+		9D601E8626E6D03E00844CD1 /* Bronze Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8126E6D03E00844CD1 /* Bronze Inverted@2x.png */; };
+		9D601E8726E6D03E00844CD1 /* Bronze Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8226E6D03E00844CD1 /* Bronze Inverted~ipad.png */; };
+		9D601E8826E6D03E00844CD1 /* Bronze Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8326E6D03E00844CD1 /* Bronze Inverted-83.5@2x~ipad.png */; };
+		9D601E8926E6D03E00844CD1 /* Bronze Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8426E6D03E00844CD1 /* Bronze Inverted@3x.png */; };
+		9D601E8F26E6D04E00844CD1 /* Silver~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8A26E6D04E00844CD1 /* Silver~ipad.png */; };
+		9D601E9026E6D04E00844CD1 /* Silver-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8B26E6D04E00844CD1 /* Silver-83.5@2x~ipad.png */; };
+		9D601E9126E6D04E00844CD1 /* Silver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8C26E6D04E00844CD1 /* Silver@2x.png */; };
+		9D601E9226E6D04E00844CD1 /* Silver@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8D26E6D04E00844CD1 /* Silver@2x~ipad.png */; };
+		9D601E9326E6D04E00844CD1 /* Silver@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E8E26E6D04E00844CD1 /* Silver@3x.png */; };
+		9D601E9926E6D06000844CD1 /* Silver Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9426E6D05F00844CD1 /* Silver Inverted-83.5@2x~ipad.png */; };
+		9D601E9A26E6D06000844CD1 /* Silver Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9526E6D05F00844CD1 /* Silver Inverted~ipad.png */; };
+		9D601E9B26E6D06000844CD1 /* Silver Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9626E6D05F00844CD1 /* Silver Inverted@2x~ipad.png */; };
+		9D601E9C26E6D06000844CD1 /* Silver Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9726E6D05F00844CD1 /* Silver Inverted@2x.png */; };
+		9D601E9D26E6D06000844CD1 /* Silver Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9826E6D06000844CD1 /* Silver Inverted@3x.png */; };
+		9D601EA326E6D06C00844CD1 /* Gold@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9E26E6D06C00844CD1 /* Gold@2x~ipad.png */; };
+		9D601EA426E6D06C00844CD1 /* Gold@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601E9F26E6D06C00844CD1 /* Gold@3x.png */; };
+		9D601EA526E6D06C00844CD1 /* Gold~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EA026E6D06C00844CD1 /* Gold~ipad.png */; };
+		9D601EA626E6D06C00844CD1 /* Gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EA126E6D06C00844CD1 /* Gold@2x.png */; };
+		9D601EA726E6D06C00844CD1 /* Gold-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EA226E6D06C00844CD1 /* Gold-83.5@2x~ipad.png */; };
+		9D601EAD26E6D07A00844CD1 /* Gold Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EA826E6D07A00844CD1 /* Gold Inverted@2x~ipad.png */; };
+		9D601EAE26E6D07A00844CD1 /* Gold Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EA926E6D07A00844CD1 /* Gold Inverted@3x.png */; };
+		9D601EAF26E6D07A00844CD1 /* Gold Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EAA26E6D07A00844CD1 /* Gold Inverted~ipad.png */; };
+		9D601EB026E6D07A00844CD1 /* Gold Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EAB26E6D07A00844CD1 /* Gold Inverted-83.5@2x~ipad.png */; };
+		9D601EB126E6D07A00844CD1 /* Gold Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EAC26E6D07A00844CD1 /* Gold Inverted@2x.png */; };
+		9D601EB726E72FAB00844CD1 /* Ocean@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EB226E72FAA00844CD1 /* Ocean@2x~ipad.png */; };
+		9D601EB826E72FAB00844CD1 /* Ocean@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EB326E72FAA00844CD1 /* Ocean@2x.png */; };
+		9D601EB926E72FAB00844CD1 /* Ocean~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EB426E72FAA00844CD1 /* Ocean~ipad.png */; };
+		9D601EBA26E72FAB00844CD1 /* Ocean@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EB526E72FAA00844CD1 /* Ocean@3x.png */; };
+		9D601EBB26E72FAB00844CD1 /* Ocean-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EB626E72FAB00844CD1 /* Ocean-83.5@2x~ipad.png */; };
+		9D601EC126E72FBC00844CD1 /* Ocean Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EBC26E72FBC00844CD1 /* Ocean Inverted~ipad.png */; };
+		9D601EC226E72FBC00844CD1 /* Ocean Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EBD26E72FBC00844CD1 /* Ocean Inverted@3x.png */; };
+		9D601EC326E72FBC00844CD1 /* Ocean Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EBE26E72FBC00844CD1 /* Ocean Inverted-83.5@2x~ipad.png */; };
+		9D601EC426E72FBC00844CD1 /* Ocean Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EBF26E72FBC00844CD1 /* Ocean Inverted@2x.png */; };
+		9D601EC526E72FBC00844CD1 /* Ocean Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EC026E72FBC00844CD1 /* Ocean Inverted@2x~ipad.png */; };
+		9D601ECB26E72FC900844CD1 /* Sunset@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EC626E72FC900844CD1 /* Sunset@2x~ipad.png */; };
+		9D601ECC26E72FC900844CD1 /* Sunset~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EC726E72FC900844CD1 /* Sunset~ipad.png */; };
+		9D601ECD26E72FC900844CD1 /* Sunset-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EC826E72FC900844CD1 /* Sunset-83.5@2x~ipad.png */; };
+		9D601ECE26E72FC900844CD1 /* Sunset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601EC926E72FC900844CD1 /* Sunset@2x.png */; };
+		9D601ECF26E72FC900844CD1 /* Sunset@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601ECA26E72FC900844CD1 /* Sunset@3x.png */; };
+		9D601ED526E72FD600844CD1 /* Sunset Inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601ED026E72FD600844CD1 /* Sunset Inverted@2x.png */; };
+		9D601ED626E72FD600844CD1 /* Sunset Inverted@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601ED126E72FD600844CD1 /* Sunset Inverted@2x~ipad.png */; };
+		9D601ED726E72FD600844CD1 /* Sunset Inverted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601ED226E72FD600844CD1 /* Sunset Inverted@3x.png */; };
+		9D601ED826E72FD600844CD1 /* Sunset Inverted~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601ED326E72FD600844CD1 /* Sunset Inverted~ipad.png */; };
+		9D601ED926E72FD600844CD1 /* Sunset Inverted-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D601ED426E72FD600844CD1 /* Sunset Inverted-83.5@2x~ipad.png */; };
+		9D62F4D62634DE4A00E28991 /* MapSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62F4D52634DE4A00E28991 /* MapSnapshotView.swift */; };
+		9D62F4DB2634F69600E28991 /* HistoryMetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62F4DA2634F69600E28991 /* HistoryMetricView.swift */; };
+		9D62F4E02634F7CC00E28991 /* MetricsFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62F4DF2634F7CC00E28991 /* MetricsFormatting.swift */; };
+		9D62F4E52635FD6600E28991 /* SmallMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62F4E42635FD6600E28991 /* SmallMetricsView.swift */; };
+		9D62F4EA2636020000E28991 /* LargeMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62F4E92636020000E28991 /* LargeMetricsView.swift */; };
+		9D62F4EF2636064100E28991 /* LargeSingleMetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62F4EE2636064100E28991 /* LargeSingleMetricView.swift */; };
+		9D6E532F2623CCBF008FD7C1 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E532E2623CCBF008FD7C1 /* LocationViewModel.swift */; };
+		9D6E53492628071B008FD7C1 /* MapWithSpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E53482628071B008FD7C1 /* MapWithSpeedView.swift */; };
+		9D6E534F262BAEE0008FD7C1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E534E262BAEE0008FD7C1 /* SettingsView.swift */; };
+		9D6E5357262BB299008FD7C1 /* ColourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E5356262BB299008FD7C1 /* ColourView.swift */; };
+		9D6E5367262CE32F008FD7C1 /* UnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E5366262CE32F008FD7C1 /* UnitsView.swift */; };
+		9D6E5374262CE773008FD7C1 /* ColourChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E5373262CE773008FD7C1 /* ColourChoice.swift */; };
+		9D6E5386262CECFA008FD7C1 /* GoHiking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E5384262CECFA008FD7C1 /* GoHiking.xcdatamodeld */; };
+		9D6E538B262CEE0A008FD7C1 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E538A262CEE0A008FD7C1 /* PersistenceController.swift */; };
+		9D6E5391262CF1AF008FD7C1 /* UserPreferences+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E538F262CF1AF008FD7C1 /* UserPreferences+CoreDataClass.swift */; };
+		9D6E5392262CF1AF008FD7C1 /* UserPreferences+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E5390262CF1AF008FD7C1 /* UserPreferences+CoreDataProperties.swift */; };
+		9D75E29226C85C9C00DE536D /* BikeRideSortPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75E29126C85C9C00DE536D /* BikeRideSortPopoverView.swift */; };
+		9D75E29426C8636F00DE536D /* BikeRideFilterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75E29326C8636F00DE536D /* BikeRideFilterSheetView.swift */; };
+		9D76355A262009230026D948 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D763559262009230026D948 /* MapView.swift */; };
+		9D8169BC263E0C5200DED7F8 /* SortChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8169BB263E0C5200DED7F8 /* SortChoice.swift */; };
+		9D8169DC263F815600DED7F8 /* ChangeAppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8169DB263F815600DED7F8 /* ChangeAppIconView.swift */; };
+		9D8169ED263FA47A00DED7F8 /* Dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8169EB263FA47A00DED7F8 /* Dark@2x.png */; };
+		9D8169EE263FA47A00DED7F8 /* Dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8169EC263FA47A00DED7F8 /* Dark@3x.png */; };
+		9D8169F4263FA48500DED7F8 /* Light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8169F2263FA48500DED7F8 /* Light@3x.png */; };
+		9D8169F5263FA48500DED7F8 /* Light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8169F3263FA48500DED7F8 /* Light@2x.png */; };
+		9D8169FA263FA4CE00DED7F8 /* IconNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8169F9263FA4CE00DED7F8 /* IconNames.swift */; };
+		9D816A0F263FBD0600DED7F8 /* HikingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D816A0E263FBD0600DED7F8 /* HikingStatus.swift */; };
+		9D816A1E2641BAD000DED7F8 /* ResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D816A1D2641BAD000DED7F8 /* ResetView.swift */; };
+		9D816A2E2642562A00DED7F8 /* Light@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A2B2642562900DED7F8 /* Light@2x~ipad.png */; };
+		9D816A2F2642562A00DED7F8 /* Light-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A2C2642562A00DED7F8 /* Light-83.5@2x~ipad.png */; };
+		9D816A302642562A00DED7F8 /* Light~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A2D2642562A00DED7F8 /* Light~ipad.png */; };
+		9D816A372642563D00DED7F8 /* Dark~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A342642563D00DED7F8 /* Dark~ipad.png */; };
+		9D816A382642563D00DED7F8 /* Dark-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A352642563D00DED7F8 /* Dark-83.5@2x~ipad.png */; };
+		9D816A392642563D00DED7F8 /* Dark@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A362642563D00DED7F8 /* Dark@2x~ipad.png */; };
+		9D816A402642564E00DED7F8 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A3D2642564E00DED7F8 /* Default@2x~ipad.png */; };
+		9D816A412642564E00DED7F8 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A3E2642564E00DED7F8 /* Default~ipad.png */; };
+		9D816A422642564E00DED7F8 /* Default-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D816A3F2642564E00DED7F8 /* Default-83.5@2x~ipad.png */; };
+		9D9776E52633B0E70048B504 /* BikeRideListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9776E42633B0E70048B504 /* BikeRideListView.swift */; };
+		9D9776EA2633B4050048B504 /* SingleBikeRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9776E92633B4050048B504 /* SingleBikeRideView.swift */; };
+		9D9E8BEF28AE179C0057BCAB /* SyncSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9E8BEE28AE179C0057BCAB /* SyncSettingsView.swift */; };
+		9DA60D60287558D000072DA2 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA60D5F287558D000072DA2 /* ReviewManager.swift */; };
+		9DA60D6228755AF900072DA2 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA60D6128755AF900072DA2 /* UIApplicationExtension.swift */; };
+		9DA60D642875617600072DA2 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA60D632875617600072DA2 /* SupportView.swift */; };
+		9DAB831825FECAD300F5C42E /* GoHikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB831725FECAD300F5C42E /* GoHikingApp.swift */; };
+		9DAB831A25FECAD300F5C42E /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB831925FECAD300F5C42E /* CycleView.swift */; };
+		9DAB831C25FECAD400F5C42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB831B25FECAD400F5C42E /* Assets.xcassets */; };
+		9DAB831F25FECAD400F5C42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB831E25FECAD400F5C42E /* Preview Assets.xcassets */; };
+		9DAB832A25FECAD400F5C42E /* GoCyclingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB832925FECAD400F5C42E /* GoCyclingTests.swift */; };
+		9DAB833525FECAD400F5C42E /* GoCyclingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB833425FECAD400F5C42E /* GoCyclingUITests.swift */; };
+		9DAB835E25FECCB000F5C42E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB835D25FECCB000F5C42E /* MainView.swift */; };
+		9DAB837025FED0A300F5C42E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB836F25FED0A300F5C42E /* HistoryView.swift */; };
+		9DAB837525FED2F800F5C42E /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB837425FED2F800F5C42E /* TimerButton.swift */; };
+		9DAB837C25FEDEF100F5C42E /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB837B25FEDEF100F5C42E /* TimerViewModel.swift */; };
+		9DC758372805260A00BB2953 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC758362805260A00BB2953 /* CloudKit.framework */; };
+		9DC758392807A74900BB2953 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC758382807A74900BB2953 /* Preferences.swift */; };
+		9DC7583B2809506300BB2953 /* HikingRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7583A2809506300BB2953 /* HikingRecords.swift */; };
+		9DCD21ED263638F200506FA5 /* UnitsChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD21EC263638F200506FA5 /* UnitsChoice.swift */; };
+		9DCD21F226363D8D00506FA5 /* BikeRideListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD21F126363D8D00506FA5 /* BikeRideListViewModel.swift */; };
+		9DCD21F72636426700506FA5 /* BikeRide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD21F62636426700506FA5 /* BikeRide+Extensions.swift */; };
+		9DEAD6B6262D423E00392D88 /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEAD6B5262D423E00392D88 /* AboutAppView.swift */; };
+		9DEAD6BE262FBFF900392D88 /* MapSystemImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEAD6BD262FBFF900392D88 /* MapSystemImageButton.swift */; };
+		9DEAD6C4263257A500392D88 /* BikeRide+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEAD6C2263257A500392D88 /* BikeRide+CoreDataClass.swift */; };
+		9DEAD6C5263257A500392D88 /* BikeRide+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEAD6C3263257A500392D88 /* BikeRide+CoreDataProperties.swift */; };
+		9DEAD6CB2632589500392D88 /* BikeRideStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEAD6CA2632589500392D88 /* BikeRideStorage.swift */; };
+		9DF9303B26DB439300D4EEC5 /* Records+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9303926DB439300D4EEC5 /* Records+CoreDataClass.swift */; };
+		9DF9303C26DB439300D4EEC5 /* Records+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9303A26DB439300D4EEC5 /* Records+CoreDataProperties.swift */; };
+		9DF9304326DCAAD300D4EEC5 /* HikingRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304226DCAAD300D4EEC5 /* HikingRecordsView.swift */; };
+		9DF9304526DCAB0600D4EEC5 /* HikingSingleRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304426DCAB0600D4EEC5 /* HikingSingleRecordView.swift */; };
+		9DF9304726DCABA400D4EEC5 /* RecordsFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304626DCABA400D4EEC5 /* RecordsFormatting.swift */; };
+		9DF9304926DDE3F400D4EEC5 /* HikingChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304826DDE3F400D4EEC5 /* HikingChartsView.swift */; };
+		9DF9304B26DDE81900D4EEC5 /* ActivityAwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304A26DDE81900D4EEC5 /* ActivityAwardsView.swift */; };
+		9DF9304D26DDFA4E00D4EEC5 /* LockedIconCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304C26DDFA4E00D4EEC5 /* LockedIconCoverView.swift */; };
+		9DF9304F26DDFAC400D4EEC5 /* SingleActivityAwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9304E26DDFAC400D4EEC5 /* SingleActivityAwardView.swift */; };
+		9DF9305126DE03BC00D4EEC5 /* EmojiImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9305026DE03BC00D4EEC5 /* EmojiImageExtension.swift */; };
+		9DF9305326DE06A600D4EEC5 /* Medal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9305226DE06A600D4EEC5 /* Medal.swift */; };
+		E95AC1C52BC552D300C76849 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC17F2BC552D300C76849 /* iTunesArtwork@1x.png */; };
+		E95AC1C62BC552D300C76849 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1812BC552D300C76849 /* Icon-App-76x76@2x.png */; };
+		E95AC1C72BC552D300C76849 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1822BC552D300C76849 /* Icon-App-29x29@1x.png */; };
+		E95AC1C82BC552D300C76849 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1832BC552D300C76849 /* Icon-App-40x40@1x.png */; };
+		E95AC1C92BC552D300C76849 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1842BC552D300C76849 /* Icon-App-20x20@1x.png */; };
+		E95AC1CA2BC552D300C76849 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1852BC552D300C76849 /* Icon-App-83.5x83.5@2x.png */; };
+		E95AC1CB2BC552D300C76849 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1862BC552D300C76849 /* Icon-App-20x20@3x.png */; };
+		E95AC1CC2BC552D300C76849 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1872BC552D300C76849 /* ItunesArtwork@2x.png */; };
+		E95AC1CD2BC552D300C76849 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1882BC552D300C76849 /* Icon-App-20x20@2x.png */; };
+		E95AC1CE2BC552D300C76849 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1892BC552D300C76849 /* Icon-App-29x29@3x.png */; };
+		E95AC1CF2BC552D300C76849 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC18A2BC552D300C76849 /* Icon-App-40x40@2x.png */; };
+		E95AC1D02BC552D300C76849 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC18B2BC552D300C76849 /* Icon-App-60x60@3x.png */; };
+		E95AC1D12BC552D300C76849 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC18C2BC552D300C76849 /* Icon-App-60x60@2x.png */; };
+		E95AC1D22BC552D300C76849 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC18D2BC552D300C76849 /* Icon-App-76x76@1x.png */; };
+		E95AC1D32BC552D300C76849 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC18E2BC552D300C76849 /* Icon-App-40x40@3x.png */; };
+		E95AC1D42BC552D300C76849 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC18F2BC552D300C76849 /* Icon-App-29x29@2x.png */; };
+		E95AC1D52BC552D300C76849 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1902BC552D300C76849 /* iTunesArtwork@2x.png */; };
+		E95AC1D62BC552D300C76849 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC1912BC552D300C76849 /* iTunesArtwork@3x.png */; };
+		E95AC2042BC555E100C76849 /* HDefault@1.png in Resources */ = {isa = PBXBuildFile; fileRef = E95AC2032BC555E100C76849 /* HDefault@1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DAB832625FECAD400F5C42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DAB830C25FECAD300F5C42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAB831325FECAD300F5C42E;
+			remoteInfo = "Go Cycling";
+		};
+		9DAB833125FECAD400F5C42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DAB830C25FECAD300F5C42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAB831325FECAD300F5C42E;
+			remoteInfo = "Go Cycling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D1C40CC26426E740032125A /* Default Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Inverted@2x.png"; sourceTree = "<group>"; };
+		9D1C40CD26426E740032125A /* Default Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Inverted@3x.png"; sourceTree = "<group>"; };
+		9D1C40D326426E7F0032125A /* Default Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D1C40D426426E7F0032125A /* Default Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D1C40D526426E7F0032125A /* Default Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D1ED54C2643CF5A005A97ED /* UIAppearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAppearViewController.swift; sourceTree = "<group>"; };
+		9D1ED54F26448F4F005A97ED /* HikingHistorySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingHistorySettingsView.swift; sourceTree = "<group>"; };
+		9D2F48F62650751200094575 /* RouteNameModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteNameModalView.swift; sourceTree = "<group>"; };
+		9D2F48F8265075FC00094575 /* ModalViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewExtension.swift; sourceTree = "<group>"; };
+		9D2F48FA26507EC500094575 /* RouteNamingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteNamingViewModel.swift; sourceTree = "<group>"; };
+		9D2F48FD265097F000094575 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9D3808E926D3709C0058DE1E /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		9D55B9F626522D8D00B622E5 /* RouteRenameModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRenameModalView.swift; sourceTree = "<group>"; };
+		9D601E5526DEF6E100844CD1 /* ActivityAwardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAwardsViewModel.swift; sourceTree = "<group>"; };
+		9D601E5826E0732100844CD1 /* SingleChartListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleChartListCellView.swift; sourceTree = "<group>"; };
+		9D601E5A26E085B700844CD1 /* HikingChartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingChartsViewModel.swift; sourceTree = "<group>"; };
+		9D601E5C26E0992500844CD1 /* DateDistanceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDistanceExtension.swift; sourceTree = "<group>"; };
+		9D601E5E26E09D4600844CD1 /* BarChartCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartCellView.swift; sourceTree = "<group>"; };
+		9D601E6026E09D9A00844CD1 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		9D601E6226E6CFC900844CD1 /* Interstellar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar@3x.png"; sourceTree = "<group>"; };
+		9D601E6326E6CFC900844CD1 /* Interstellar~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar~ipad.png"; sourceTree = "<group>"; };
+		9D601E6426E6CFC900844CD1 /* Interstellar@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E6526E6CFC900844CD1 /* Interstellar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar@2x.png"; sourceTree = "<group>"; };
+		9D601E6626E6CFC900844CD1 /* Interstellar-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E6C26E6CFFD00844CD1 /* Interstellar Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E6D26E6CFFD00844CD1 /* Interstellar Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar Inverted@2x.png"; sourceTree = "<group>"; };
+		9D601E6E26E6CFFD00844CD1 /* Interstellar Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E6F26E6CFFD00844CD1 /* Interstellar Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar Inverted@3x.png"; sourceTree = "<group>"; };
+		9D601E7026E6CFFD00844CD1 /* Interstellar Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Interstellar Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D601E7626E6D02200844CD1 /* Bronze-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E7726E6D02200844CD1 /* Bronze~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze~ipad.png"; sourceTree = "<group>"; };
+		9D601E7826E6D02200844CD1 /* Bronze@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze@2x.png"; sourceTree = "<group>"; };
+		9D601E7926E6D02200844CD1 /* Bronze@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E7A26E6D02200844CD1 /* Bronze@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze@3x.png"; sourceTree = "<group>"; };
+		9D601E8026E6D03E00844CD1 /* Bronze Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E8126E6D03E00844CD1 /* Bronze Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze Inverted@2x.png"; sourceTree = "<group>"; };
+		9D601E8226E6D03E00844CD1 /* Bronze Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D601E8326E6D03E00844CD1 /* Bronze Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E8426E6D03E00844CD1 /* Bronze Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze Inverted@3x.png"; sourceTree = "<group>"; };
+		9D601E8A26E6D04E00844CD1 /* Silver~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver~ipad.png"; sourceTree = "<group>"; };
+		9D601E8B26E6D04E00844CD1 /* Silver-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E8C26E6D04E00844CD1 /* Silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver@2x.png"; sourceTree = "<group>"; };
+		9D601E8D26E6D04E00844CD1 /* Silver@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E8E26E6D04E00844CD1 /* Silver@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver@3x.png"; sourceTree = "<group>"; };
+		9D601E9426E6D05F00844CD1 /* Silver Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E9526E6D05F00844CD1 /* Silver Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D601E9626E6D05F00844CD1 /* Silver Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E9726E6D05F00844CD1 /* Silver Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver Inverted@2x.png"; sourceTree = "<group>"; };
+		9D601E9826E6D06000844CD1 /* Silver Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver Inverted@3x.png"; sourceTree = "<group>"; };
+		9D601E9E26E6D06C00844CD1 /* Gold@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601E9F26E6D06C00844CD1 /* Gold@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold@3x.png"; sourceTree = "<group>"; };
+		9D601EA026E6D06C00844CD1 /* Gold~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold~ipad.png"; sourceTree = "<group>"; };
+		9D601EA126E6D06C00844CD1 /* Gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold@2x.png"; sourceTree = "<group>"; };
+		9D601EA226E6D06C00844CD1 /* Gold-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EA826E6D07A00844CD1 /* Gold Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EA926E6D07A00844CD1 /* Gold Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Inverted@3x.png"; sourceTree = "<group>"; };
+		9D601EAA26E6D07A00844CD1 /* Gold Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D601EAB26E6D07A00844CD1 /* Gold Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EAC26E6D07A00844CD1 /* Gold Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Inverted@2x.png"; sourceTree = "<group>"; };
+		9D601EB226E72FAA00844CD1 /* Ocean@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EB326E72FAA00844CD1 /* Ocean@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean@2x.png"; sourceTree = "<group>"; };
+		9D601EB426E72FAA00844CD1 /* Ocean~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean~ipad.png"; sourceTree = "<group>"; };
+		9D601EB526E72FAA00844CD1 /* Ocean@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean@3x.png"; sourceTree = "<group>"; };
+		9D601EB626E72FAB00844CD1 /* Ocean-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EBC26E72FBC00844CD1 /* Ocean Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D601EBD26E72FBC00844CD1 /* Ocean Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean Inverted@3x.png"; sourceTree = "<group>"; };
+		9D601EBE26E72FBC00844CD1 /* Ocean Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EBF26E72FBC00844CD1 /* Ocean Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean Inverted@2x.png"; sourceTree = "<group>"; };
+		9D601EC026E72FBC00844CD1 /* Ocean Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EC626E72FC900844CD1 /* Sunset@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EC726E72FC900844CD1 /* Sunset~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset~ipad.png"; sourceTree = "<group>"; };
+		9D601EC826E72FC900844CD1 /* Sunset-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601EC926E72FC900844CD1 /* Sunset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset@2x.png"; sourceTree = "<group>"; };
+		9D601ECA26E72FC900844CD1 /* Sunset@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset@3x.png"; sourceTree = "<group>"; };
+		9D601ED026E72FD600844CD1 /* Sunset Inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset Inverted@2x.png"; sourceTree = "<group>"; };
+		9D601ED126E72FD600844CD1 /* Sunset Inverted@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset Inverted@2x~ipad.png"; sourceTree = "<group>"; };
+		9D601ED226E72FD600844CD1 /* Sunset Inverted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset Inverted@3x.png"; sourceTree = "<group>"; };
+		9D601ED326E72FD600844CD1 /* Sunset Inverted~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset Inverted~ipad.png"; sourceTree = "<group>"; };
+		9D601ED426E72FD600844CD1 /* Sunset Inverted-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset Inverted-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D62F4D52634DE4A00E28991 /* MapSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSnapshotView.swift; sourceTree = "<group>"; };
+		9D62F4DA2634F69600E28991 /* HistoryMetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMetricView.swift; sourceTree = "<group>"; };
+		9D62F4DF2634F7CC00E28991 /* MetricsFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsFormatting.swift; sourceTree = "<group>"; };
+		9D62F4E42635FD6600E28991 /* SmallMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallMetricsView.swift; sourceTree = "<group>"; };
+		9D62F4E92636020000E28991 /* LargeMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeMetricsView.swift; sourceTree = "<group>"; };
+		9D62F4EE2636064100E28991 /* LargeSingleMetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeSingleMetricView.swift; sourceTree = "<group>"; };
+		9D6E532E2623CCBF008FD7C1 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		9D6E53482628071B008FD7C1 /* MapWithSpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWithSpeedView.swift; sourceTree = "<group>"; };
+		9D6E534E262BAEE0008FD7C1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9D6E5356262BB299008FD7C1 /* ColourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourView.swift; sourceTree = "<group>"; };
+		9D6E5366262CE32F008FD7C1 /* UnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsView.swift; sourceTree = "<group>"; };
+		9D6E5373262CE773008FD7C1 /* ColourChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourChoice.swift; sourceTree = "<group>"; };
+		9D6E5385262CECFA008FD7C1 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		9D6E538A262CEE0A008FD7C1 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		9D6E538F262CF1AF008FD7C1 /* UserPreferences+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserPreferences+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9D6E5390262CF1AF008FD7C1 /* UserPreferences+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserPreferences+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9D75E29126C85C9C00DE536D /* BikeRideSortPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRideSortPopoverView.swift; sourceTree = "<group>"; };
+		9D75E29326C8636F00DE536D /* BikeRideFilterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRideFilterSheetView.swift; sourceTree = "<group>"; };
+		9D763559262009230026D948 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9D8169BB263E0C5200DED7F8 /* SortChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortChoice.swift; sourceTree = "<group>"; };
+		9D8169DB263F815600DED7F8 /* ChangeAppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAppIconView.swift; sourceTree = "<group>"; };
+		9D8169EB263FA47A00DED7F8 /* Dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark@2x.png"; sourceTree = "<group>"; };
+		9D8169EC263FA47A00DED7F8 /* Dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark@3x.png"; sourceTree = "<group>"; };
+		9D8169F2263FA48500DED7F8 /* Light@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light@3x.png"; sourceTree = "<group>"; };
+		9D8169F3263FA48500DED7F8 /* Light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light@2x.png"; sourceTree = "<group>"; };
+		9D8169F9263FA4CE00DED7F8 /* IconNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconNames.swift; sourceTree = "<group>"; };
+		9D816A0E263FBD0600DED7F8 /* HikingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingStatus.swift; sourceTree = "<group>"; };
+		9D816A1D2641BAD000DED7F8 /* ResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetView.swift; sourceTree = "<group>"; };
+		9D816A2B2642562900DED7F8 /* Light@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light@2x~ipad.png"; sourceTree = "<group>"; };
+		9D816A2C2642562A00DED7F8 /* Light-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D816A2D2642562A00DED7F8 /* Light~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light~ipad.png"; sourceTree = "<group>"; };
+		9D816A342642563D00DED7F8 /* Dark~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark~ipad.png"; sourceTree = "<group>"; };
+		9D816A352642563D00DED7F8 /* Dark-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D816A362642563D00DED7F8 /* Dark@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark@2x~ipad.png"; sourceTree = "<group>"; };
+		9D816A3D2642564E00DED7F8 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		9D816A3E2642564E00DED7F8 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		9D816A3F2642564E00DED7F8 /* Default-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D9776E42633B0E70048B504 /* BikeRideListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRideListView.swift; sourceTree = "<group>"; };
+		9D9776E92633B4050048B504 /* SingleBikeRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBikeRideView.swift; sourceTree = "<group>"; };
+		9D9E8BEE28AE179C0057BCAB /* SyncSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncSettingsView.swift; sourceTree = "<group>"; };
+		9DA60D5F287558D000072DA2 /* ReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
+		9DA60D6128755AF900072DA2 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		9DA60D632875617600072DA2 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		9DAB831425FECAD300F5C42E /* Go Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Hiking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB831725FECAD300F5C42E /* GoHikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoHikingApp.swift; sourceTree = "<group>"; };
+		9DAB831925FECAD300F5C42E /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		9DAB831B25FECAD400F5C42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DAB831E25FECAD400F5C42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DAB832025FECAD400F5C42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAB832525FECAD400F5C42E /* Go HikingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go HikingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB832925FECAD400F5C42E /* GoCyclingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCyclingTests.swift; sourceTree = "<group>"; };
+		9DAB832B25FECAD400F5C42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAB833025FECAD400F5C42E /* Go HikingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go HikingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB833425FECAD400F5C42E /* GoCyclingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCyclingUITests.swift; sourceTree = "<group>"; };
+		9DAB833625FECAD400F5C42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAB835D25FECCB000F5C42E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9DAB836F25FED0A300F5C42E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		9DAB837425FED2F800F5C42E /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		9DAB837B25FEDEF100F5C42E /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		9DC75834280525F900BB2953 /* Go Hiking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Go Hiking.entitlements"; sourceTree = "<group>"; };
+		9DC758362805260A00BB2953 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		9DC758382807A74900BB2953 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		9DC7583A2809506300BB2953 /* HikingRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingRecords.swift; sourceTree = "<group>"; };
+		9DCD21EC263638F200506FA5 /* UnitsChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsChoice.swift; sourceTree = "<group>"; };
+		9DCD21F126363D8D00506FA5 /* BikeRideListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRideListViewModel.swift; sourceTree = "<group>"; };
+		9DCD21F62636426700506FA5 /* BikeRide+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BikeRide+Extensions.swift"; sourceTree = "<group>"; };
+		9DEAD6B5262D423E00392D88 /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
+		9DEAD6BD262FBFF900392D88 /* MapSystemImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSystemImageButton.swift; sourceTree = "<group>"; };
+		9DEAD6C2263257A500392D88 /* BikeRide+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BikeRide+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9DEAD6C3263257A500392D88 /* BikeRide+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BikeRide+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9DEAD6CA2632589500392D88 /* BikeRideStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRideStorage.swift; sourceTree = "<group>"; };
+		9DF9303926DB439300D4EEC5 /* Records+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9DF9303A26DB439300D4EEC5 /* Records+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Records+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9DF9304226DCAAD300D4EEC5 /* HikingRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingRecordsView.swift; sourceTree = "<group>"; };
+		9DF9304426DCAB0600D4EEC5 /* HikingSingleRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSingleRecordView.swift; sourceTree = "<group>"; };
+		9DF9304626DCABA400D4EEC5 /* RecordsFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsFormatting.swift; sourceTree = "<group>"; };
+		9DF9304826DDE3F400D4EEC5 /* HikingChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingChartsView.swift; sourceTree = "<group>"; };
+		9DF9304A26DDE81900D4EEC5 /* ActivityAwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAwardsView.swift; sourceTree = "<group>"; };
+		9DF9304C26DDFA4E00D4EEC5 /* LockedIconCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedIconCoverView.swift; sourceTree = "<group>"; };
+		9DF9304E26DDFAC400D4EEC5 /* SingleActivityAwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleActivityAwardView.swift; sourceTree = "<group>"; };
+		9DF9305026DE03BC00D4EEC5 /* EmojiImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiImageExtension.swift; sourceTree = "<group>"; };
+		9DF9305226DE06A600D4EEC5 /* Medal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medal.swift; sourceTree = "<group>"; };
+		E95AC17F2BC552D300C76849 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		E95AC1812BC552D300C76849 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		E95AC1822BC552D300C76849 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		E95AC1832BC552D300C76849 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		E95AC1842BC552D300C76849 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		E95AC1852BC552D300C76849 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		E95AC1862BC552D300C76849 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		E95AC1872BC552D300C76849 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		E95AC1882BC552D300C76849 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		E95AC1892BC552D300C76849 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		E95AC18A2BC552D300C76849 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		E95AC18B2BC552D300C76849 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		E95AC18C2BC552D300C76849 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		E95AC18D2BC552D300C76849 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		E95AC18E2BC552D300C76849 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		E95AC18F2BC552D300C76849 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		E95AC1902BC552D300C76849 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		E95AC1912BC552D300C76849 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		E95AC2032BC555E100C76849 /* HDefault@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HDefault@1.png"; path = "../../../../../../../Downloads/HDefault@1.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DAB831125FECAD300F5C42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC758372805260A00BB2953 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB832225FECAD400F5C42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB832D25FECAD400F5C42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D1ED54E2643D38D005A97ED /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9D1ED54C2643CF5A005A97ED /* UIAppearViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9D2F48FC26508DF200094575 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D2F48F8265075FC00094575 /* ModalViewExtension.swift */,
+				9DF9305026DE03BC00D4EEC5 /* EmojiImageExtension.swift */,
+				9D601E5C26E0992500844CD1 /* DateDistanceExtension.swift */,
+				9DA60D6128755AF900072DA2 /* UIApplicationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D3808E826D370710058DE1E /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				9D3808E926D3709C0058DE1E /* StatisticsView.swift */,
+				9DF9304826DDE3F400D4EEC5 /* HikingChartsView.swift */,
+				9DF9304226DCAAD300D4EEC5 /* HikingRecordsView.swift */,
+				9DF9304426DCAB0600D4EEC5 /* HikingSingleRecordView.swift */,
+				9DF9304A26DDE81900D4EEC5 /* ActivityAwardsView.swift */,
+				9DF9304E26DDFAC400D4EEC5 /* SingleActivityAwardView.swift */,
+				9DF9304C26DDFA4E00D4EEC5 /* LockedIconCoverView.swift */,
+				9D601E5826E0732100844CD1 /* SingleChartListCellView.swift */,
+				9D601E5E26E09D4600844CD1 /* BarChartCellView.swift */,
+				9D601E6026E09D9A00844CD1 /* BarChartView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		9D601E5426DEF6C300844CD1 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				9D601E5526DEF6E100844CD1 /* ActivityAwardsViewModel.swift */,
+				9D601E5A26E085B700844CD1 /* HikingChartsViewModel.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		9D601E5726DEFAC000844CD1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9DCD21F126363D8D00506FA5 /* BikeRideListViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9D6E53392623CD36008FD7C1 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB831925FECAD300F5C42E /* CycleView.swift */,
+				9DAB837425FED2F800F5C42E /* TimerButton.swift */,
+				9D763559262009230026D948 /* MapView.swift */,
+				9D6E53482628071B008FD7C1 /* MapWithSpeedView.swift */,
+				9D62F4E42635FD6600E28991 /* SmallMetricsView.swift */,
+				9DEAD6BD262FBFF900392D88 /* MapSystemImageButton.swift */,
+				9D62F4E92636020000E28991 /* LargeMetricsView.swift */,
+				9D62F4EE2636064100E28991 /* LargeSingleMetricView.swift */,
+				9D2F48F62650751200094575 /* RouteNameModalView.swift */,
+				9D55B9F626522D8D00B622E5 /* RouteRenameModalView.swift */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		9D6E533D2627AE57008FD7C1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB836F25FED0A300F5C42E /* HistoryView.swift */,
+				9D9776E42633B0E70048B504 /* BikeRideListView.swift */,
+				9D9776E92633B4050048B504 /* SingleBikeRideView.swift */,
+				9D62F4D52634DE4A00E28991 /* MapSnapshotView.swift */,
+				9D62F4DA2634F69600E28991 /* HistoryMetricView.swift */,
+				9D75E29126C85C9C00DE536D /* BikeRideSortPopoverView.swift */,
+				9D75E29326C8636F00DE536D /* BikeRideFilterSheetView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9D6E53412627AE9B008FD7C1 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				9D6E532E2623CCBF008FD7C1 /* LocationViewModel.swift */,
+				9DAB837B25FEDEF100F5C42E /* TimerViewModel.swift */,
+				9D2F48FA26507EC500094575 /* RouteNamingViewModel.swift */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		9D6E534D262BAED2008FD7C1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9D6E534E262BAEE0008FD7C1 /* SettingsView.swift */,
+				9D6E5356262BB299008FD7C1 /* ColourView.swift */,
+				9D6E5366262CE32F008FD7C1 /* UnitsView.swift */,
+				9DEAD6B5262D423E00392D88 /* AboutAppView.swift */,
+				9D8169DB263F815600DED7F8 /* ChangeAppIconView.swift */,
+				9D816A1D2641BAD000DED7F8 /* ResetView.swift */,
+				9D1ED54F26448F4F005A97ED /* HikingHistorySettingsView.swift */,
+				9DA60D632875617600072DA2 /* SupportView.swift */,
+				9D9E8BEE28AE179C0057BCAB /* SyncSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9D6E5383262CECCC008FD7C1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9303D26DB43B500D4EEC5 /* Records */,
+				9DEAD6C92632586200392D88 /* BikeRide */,
+				9D6E53A1262D387B008FD7C1 /* UserPreferences */,
+				9D6E5384262CECFA008FD7C1 /* GoHiking.xcdatamodeld */,
+				9D6E538A262CEE0A008FD7C1 /* PersistenceController.swift */,
+				9DEAD6CA2632589500392D88 /* BikeRideStorage.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		9D6E53A1262D387B008FD7C1 /* UserPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				9D6E538F262CF1AF008FD7C1 /* UserPreferences+CoreDataClass.swift */,
+				9D6E5390262CF1AF008FD7C1 /* UserPreferences+CoreDataProperties.swift */,
+			);
+			path = UserPreferences;
+			sourceTree = "<group>";
+		};
+		9D76355E262298490026D948 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D6E5373262CE773008FD7C1 /* ColourChoice.swift */,
+				9D62F4DF2634F7CC00E28991 /* MetricsFormatting.swift */,
+				9DCD21EC263638F200506FA5 /* UnitsChoice.swift */,
+				9D8169BB263E0C5200DED7F8 /* SortChoice.swift */,
+				9D8169F9263FA4CE00DED7F8 /* IconNames.swift */,
+				9D816A0E263FBD0600DED7F8 /* HikingStatus.swift */,
+				9D2F48FD265097F000094575 /* Category.swift */,
+				9DF9304626DCABA400D4EEC5 /* RecordsFormatting.swift */,
+				9DF9305226DE06A600D4EEC5 /* Medal.swift */,
+				9DC758382807A74900BB2953 /* Preferences.swift */,
+				9DC7583A2809506300BB2953 /* HikingRecords.swift */,
+				9DA60D5F287558D000072DA2 /* ReviewManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D8169E2263F84C900DED7F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D8169E3263F84D400DED7F8 /* Alternate App Icons */,
+				9DAB831B25FECAD400F5C42E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D8169E3263F84D400DED7F8 /* Alternate App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E95AC2032BC555E100C76849 /* HDefault@1.png */,
+				E95AC17D2BC552D300C76849 /* HDefault */,
+				9D816A3F2642564E00DED7F8 /* Default-83.5@2x~ipad.png */,
+				9D816A3D2642564E00DED7F8 /* Default@2x~ipad.png */,
+				9D816A3E2642564E00DED7F8 /* Default~ipad.png */,
+				9D1C40CC26426E740032125A /* Default Inverted@2x.png */,
+				9D1C40D426426E7F0032125A /* Default Inverted-83.5@2x~ipad.png */,
+				9D1C40D526426E7F0032125A /* Default Inverted@2x~ipad.png */,
+				9D1C40D326426E7F0032125A /* Default Inverted~ipad.png */,
+				9D1C40CD26426E740032125A /* Default Inverted@3x.png */,
+				9D8169EB263FA47A00DED7F8 /* Dark@2x.png */,
+				9D816A352642563D00DED7F8 /* Dark-83.5@2x~ipad.png */,
+				9D816A362642563D00DED7F8 /* Dark@2x~ipad.png */,
+				9D816A342642563D00DED7F8 /* Dark~ipad.png */,
+				9D8169EC263FA47A00DED7F8 /* Dark@3x.png */,
+				9D8169F3263FA48500DED7F8 /* Light@2x.png */,
+				9D816A2C2642562A00DED7F8 /* Light-83.5@2x~ipad.png */,
+				9D816A2B2642562900DED7F8 /* Light@2x~ipad.png */,
+				9D816A2D2642562A00DED7F8 /* Light~ipad.png */,
+				9D8169F2263FA48500DED7F8 /* Light@3x.png */,
+				9D601E6626E6CFC900844CD1 /* Interstellar-83.5@2x~ipad.png */,
+				9D601E6526E6CFC900844CD1 /* Interstellar@2x.png */,
+				9D601E6426E6CFC900844CD1 /* Interstellar@2x~ipad.png */,
+				9D601E6226E6CFC900844CD1 /* Interstellar@3x.png */,
+				9D601E6326E6CFC900844CD1 /* Interstellar~ipad.png */,
+				9D601E6E26E6CFFD00844CD1 /* Interstellar Inverted-83.5@2x~ipad.png */,
+				9D601E6D26E6CFFD00844CD1 /* Interstellar Inverted@2x.png */,
+				9D601E6C26E6CFFD00844CD1 /* Interstellar Inverted@2x~ipad.png */,
+				9D601E6F26E6CFFD00844CD1 /* Interstellar Inverted@3x.png */,
+				9D601E7026E6CFFD00844CD1 /* Interstellar Inverted~ipad.png */,
+				9D601EB626E72FAB00844CD1 /* Ocean-83.5@2x~ipad.png */,
+				9D601EB326E72FAA00844CD1 /* Ocean@2x.png */,
+				9D601EB226E72FAA00844CD1 /* Ocean@2x~ipad.png */,
+				9D601EB526E72FAA00844CD1 /* Ocean@3x.png */,
+				9D601EB426E72FAA00844CD1 /* Ocean~ipad.png */,
+				9D601EBE26E72FBC00844CD1 /* Ocean Inverted-83.5@2x~ipad.png */,
+				9D601EBF26E72FBC00844CD1 /* Ocean Inverted@2x.png */,
+				9D601EC026E72FBC00844CD1 /* Ocean Inverted@2x~ipad.png */,
+				9D601EBD26E72FBC00844CD1 /* Ocean Inverted@3x.png */,
+				9D601EBC26E72FBC00844CD1 /* Ocean Inverted~ipad.png */,
+				9D601EC826E72FC900844CD1 /* Sunset-83.5@2x~ipad.png */,
+				9D601EC926E72FC900844CD1 /* Sunset@2x.png */,
+				9D601EC626E72FC900844CD1 /* Sunset@2x~ipad.png */,
+				9D601ECA26E72FC900844CD1 /* Sunset@3x.png */,
+				9D601EC726E72FC900844CD1 /* Sunset~ipad.png */,
+				9D601ED426E72FD600844CD1 /* Sunset Inverted-83.5@2x~ipad.png */,
+				9D601ED026E72FD600844CD1 /* Sunset Inverted@2x.png */,
+				9D601ED126E72FD600844CD1 /* Sunset Inverted@2x~ipad.png */,
+				9D601ED226E72FD600844CD1 /* Sunset Inverted@3x.png */,
+				9D601ED326E72FD600844CD1 /* Sunset Inverted~ipad.png */,
+				9D601E7626E6D02200844CD1 /* Bronze-83.5@2x~ipad.png */,
+				9D601E7826E6D02200844CD1 /* Bronze@2x.png */,
+				9D601E7926E6D02200844CD1 /* Bronze@2x~ipad.png */,
+				9D601E7A26E6D02200844CD1 /* Bronze@3x.png */,
+				9D601E7726E6D02200844CD1 /* Bronze~ipad.png */,
+				9D601E8326E6D03E00844CD1 /* Bronze Inverted-83.5@2x~ipad.png */,
+				9D601E8126E6D03E00844CD1 /* Bronze Inverted@2x.png */,
+				9D601E8026E6D03E00844CD1 /* Bronze Inverted@2x~ipad.png */,
+				9D601E8426E6D03E00844CD1 /* Bronze Inverted@3x.png */,
+				9D601E8226E6D03E00844CD1 /* Bronze Inverted~ipad.png */,
+				9D601E8B26E6D04E00844CD1 /* Silver-83.5@2x~ipad.png */,
+				9D601E8C26E6D04E00844CD1 /* Silver@2x.png */,
+				9D601E8D26E6D04E00844CD1 /* Silver@2x~ipad.png */,
+				9D601E8E26E6D04E00844CD1 /* Silver@3x.png */,
+				9D601E8A26E6D04E00844CD1 /* Silver~ipad.png */,
+				9D601E9426E6D05F00844CD1 /* Silver Inverted-83.5@2x~ipad.png */,
+				9D601E9726E6D05F00844CD1 /* Silver Inverted@2x.png */,
+				9D601E9626E6D05F00844CD1 /* Silver Inverted@2x~ipad.png */,
+				9D601E9826E6D06000844CD1 /* Silver Inverted@3x.png */,
+				9D601E9526E6D05F00844CD1 /* Silver Inverted~ipad.png */,
+				9D601EA226E6D06C00844CD1 /* Gold-83.5@2x~ipad.png */,
+				9D601EA126E6D06C00844CD1 /* Gold@2x.png */,
+				9D601E9E26E6D06C00844CD1 /* Gold@2x~ipad.png */,
+				9D601E9F26E6D06C00844CD1 /* Gold@3x.png */,
+				9D601EA026E6D06C00844CD1 /* Gold~ipad.png */,
+				9D601EAB26E6D07A00844CD1 /* Gold Inverted-83.5@2x~ipad.png */,
+				9D601EAC26E6D07A00844CD1 /* Gold Inverted@2x.png */,
+				9D601EA826E6D07A00844CD1 /* Gold Inverted@2x~ipad.png */,
+				9D601EA926E6D07A00844CD1 /* Gold Inverted@3x.png */,
+				9D601EAA26E6D07A00844CD1 /* Gold Inverted~ipad.png */,
+			);
+			path = "Alternate App Icons";
+			sourceTree = "<group>";
+		};
+		9DAB830B25FECAD300F5C42E = {
+			isa = PBXGroup;
+			children = (
+				9DAB831625FECAD300F5C42E /* Go Hiking */,
+				9DAB832825FECAD400F5C42E /* Go HikingTests */,
+				9DAB833325FECAD400F5C42E /* Go HikingUITests */,
+				9DAB831525FECAD300F5C42E /* Products */,
+				9DC758352805260A00BB2953 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAB831525FECAD300F5C42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB831425FECAD300F5C42E /* Go Hiking.app */,
+				9DAB832525FECAD400F5C42E /* Go HikingTests.xctest */,
+				9DAB833025FECAD400F5C42E /* Go HikingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DAB831625FECAD300F5C42E /* Go Hiking */ = {
+			isa = PBXGroup;
+			children = (
+				9DC75834280525F900BB2953 /* Go Hiking.entitlements */,
+				9D6E5383262CECCC008FD7C1 /* Core Data */,
+				9D1ED54E2643D38D005A97ED /* UIKit */,
+				9D8169E2263F84C900DED7F8 /* Resources */,
+				9D2F48FC26508DF200094575 /* Extensions */,
+				9D76355E262298490026D948 /* Model */,
+				9DAB837A25FEDEC000F5C42E /* View Model */,
+				9DAB836525FED02A00F5C42E /* View */,
+				9DAB831725FECAD300F5C42E /* GoHikingApp.swift */,
+				9DAB832025FECAD400F5C42E /* Info.plist */,
+				9DAB831D25FECAD400F5C42E /* Preview Content */,
+			);
+			path = "Go Hiking";
+			sourceTree = "<group>";
+		};
+		9DAB831D25FECAD400F5C42E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB831E25FECAD400F5C42E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DAB832825FECAD400F5C42E /* Go HikingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB832925FECAD400F5C42E /* GoCyclingTests.swift */,
+				9DAB832B25FECAD400F5C42E /* Info.plist */,
+			);
+			path = "Go HikingTests";
+			sourceTree = "<group>";
+		};
+		9DAB833325FECAD400F5C42E /* Go HikingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB833425FECAD400F5C42E /* GoCyclingUITests.swift */,
+				9DAB833625FECAD400F5C42E /* Info.plist */,
+			);
+			path = "Go HikingUITests";
+			sourceTree = "<group>";
+		};
+		9DAB836525FED02A00F5C42E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D6E534D262BAED2008FD7C1 /* Settings */,
+				9D3808E826D370710058DE1E /* Statistics */,
+				9D6E533D2627AE57008FD7C1 /* History */,
+				9D6E53392623CD36008FD7C1 /* Cycle */,
+				9DAB835D25FECCB000F5C42E /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DAB837A25FEDEC000F5C42E /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D601E5726DEFAC000844CD1 /* History */,
+				9D601E5426DEF6C300844CD1 /* Statistics */,
+				9D6E53412627AE9B008FD7C1 /* Cycle */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		9DC758352805260A00BB2953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC758362805260A00BB2953 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DEAD6C92632586200392D88 /* BikeRide */ = {
+			isa = PBXGroup;
+			children = (
+				9DEAD6C2263257A500392D88 /* BikeRide+CoreDataClass.swift */,
+				9DEAD6C3263257A500392D88 /* BikeRide+CoreDataProperties.swift */,
+				9DCD21F62636426700506FA5 /* BikeRide+Extensions.swift */,
+			);
+			path = BikeRide;
+			sourceTree = "<group>";
+		};
+		9DF9303D26DB43B500D4EEC5 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9303926DB439300D4EEC5 /* Records+CoreDataClass.swift */,
+				9DF9303A26DB439300D4EEC5 /* Records+CoreDataProperties.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		E95AC17D2BC552D300C76849 /* HDefault */ = {
+			isa = PBXGroup;
+			children = (
+				E95AC17E2BC552D300C76849 /* ios */,
+			);
+			path = HDefault;
+			sourceTree = "<group>";
+		};
+		E95AC17E2BC552D300C76849 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E95AC17F2BC552D300C76849 /* iTunesArtwork@1x.png */,
+				E95AC1802BC552D300C76849 /* AppIcon.appiconset */,
+				E95AC1902BC552D300C76849 /* iTunesArtwork@2x.png */,
+				E95AC1912BC552D300C76849 /* iTunesArtwork@3x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		E95AC1802BC552D300C76849 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				E95AC1812BC552D300C76849 /* Icon-App-76x76@2x.png */,
+				E95AC1822BC552D300C76849 /* Icon-App-29x29@1x.png */,
+				E95AC1832BC552D300C76849 /* Icon-App-40x40@1x.png */,
+				E95AC1842BC552D300C76849 /* Icon-App-20x20@1x.png */,
+				E95AC1852BC552D300C76849 /* Icon-App-83.5x83.5@2x.png */,
+				E95AC1862BC552D300C76849 /* Icon-App-20x20@3x.png */,
+				E95AC1872BC552D300C76849 /* ItunesArtwork@2x.png */,
+				E95AC1882BC552D300C76849 /* Icon-App-20x20@2x.png */,
+				E95AC1892BC552D300C76849 /* Icon-App-29x29@3x.png */,
+				E95AC18A2BC552D300C76849 /* Icon-App-40x40@2x.png */,
+				E95AC18B2BC552D300C76849 /* Icon-App-60x60@3x.png */,
+				E95AC18C2BC552D300C76849 /* Icon-App-60x60@2x.png */,
+				E95AC18D2BC552D300C76849 /* Icon-App-76x76@1x.png */,
+				E95AC18E2BC552D300C76849 /* Icon-App-40x40@3x.png */,
+				E95AC18F2BC552D300C76849 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAB831325FECAD300F5C42E /* Go Hiking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB833925FECAD400F5C42E /* Build configuration list for PBXNativeTarget "Go Hiking" */;
+			buildPhases = (
+				9DAB831025FECAD300F5C42E /* Sources */,
+				9DAB831125FECAD300F5C42E /* Frameworks */,
+				9DAB831225FECAD300F5C42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Hiking";
+			productName = "Go Cycling";
+			productReference = 9DAB831425FECAD300F5C42E /* Go Hiking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DAB832425FECAD400F5C42E /* Go HikingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB833C25FECAD400F5C42E /* Build configuration list for PBXNativeTarget "Go HikingTests" */;
+			buildPhases = (
+				9DAB832125FECAD400F5C42E /* Sources */,
+				9DAB832225FECAD400F5C42E /* Frameworks */,
+				9DAB832325FECAD400F5C42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DAB832725FECAD400F5C42E /* PBXTargetDependency */,
+			);
+			name = "Go HikingTests";
+			productName = "Go CyclingTests";
+			productReference = 9DAB832525FECAD400F5C42E /* Go HikingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DAB832F25FECAD400F5C42E /* Go HikingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB833F25FECAD400F5C42E /* Build configuration list for PBXNativeTarget "Go HikingUITests" */;
+			buildPhases = (
+				9DAB832C25FECAD400F5C42E /* Sources */,
+				9DAB832D25FECAD400F5C42E /* Frameworks */,
+				9DAB832E25FECAD400F5C42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DAB833225FECAD400F5C42E /* PBXTargetDependency */,
+			);
+			name = "Go HikingUITests";
+			productName = "Go CyclingUITests";
+			productReference = 9DAB833025FECAD400F5C42E /* Go HikingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DAB830C25FECAD300F5C42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9DAB831325FECAD300F5C42E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9DAB832425FECAD400F5C42E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9DAB831325FECAD300F5C42E;
+					};
+					9DAB832F25FECAD400F5C42E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9DAB831325FECAD300F5C42E;
+					};
+				};
+			};
+			buildConfigurationList = 9DAB830F25FECAD300F5C42E /* Build configuration list for PBXProject "Go Hiking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DAB830B25FECAD300F5C42E;
+			productRefGroup = 9DAB831525FECAD300F5C42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAB831325FECAD300F5C42E /* Go Hiking */,
+				9DAB832425FECAD400F5C42E /* Go HikingTests */,
+				9DAB832F25FECAD400F5C42E /* Go HikingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DAB831225FECAD300F5C42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D601E7326E6CFFD00844CD1 /* Interstellar Inverted-83.5@2x~ipad.png in Resources */,
+				9D601EC126E72FBC00844CD1 /* Ocean Inverted~ipad.png in Resources */,
+				9D601EC526E72FBC00844CD1 /* Ocean Inverted@2x~ipad.png in Resources */,
+				9D601E7126E6CFFD00844CD1 /* Interstellar Inverted@2x~ipad.png in Resources */,
+				9D601E7F26E6D02200844CD1 /* Bronze@3x.png in Resources */,
+				E95AC1C82BC552D300C76849 /* Icon-App-40x40@1x.png in Resources */,
+				9D601EA326E6D06C00844CD1 /* Gold@2x~ipad.png in Resources */,
+				9D601E8626E6D03E00844CD1 /* Bronze Inverted@2x.png in Resources */,
+				9D816A402642564E00DED7F8 /* Default@2x~ipad.png in Resources */,
+				9D601E7E26E6D02200844CD1 /* Bronze@2x~ipad.png in Resources */,
+				9D601E9226E6D04E00844CD1 /* Silver@2x~ipad.png in Resources */,
+				9D601E6726E6CFC900844CD1 /* Interstellar@3x.png in Resources */,
+				E95AC1D22BC552D300C76849 /* Icon-App-76x76@1x.png in Resources */,
+				9D601EAD26E6D07A00844CD1 /* Gold Inverted@2x~ipad.png in Resources */,
+				9D816A2F2642562A00DED7F8 /* Light-83.5@2x~ipad.png in Resources */,
+				9D1C40CF26426E740032125A /* Default Inverted@3x.png in Resources */,
+				9D601EAF26E6D07A00844CD1 /* Gold Inverted~ipad.png in Resources */,
+				9D601E7D26E6D02200844CD1 /* Bronze@2x.png in Resources */,
+				9D601ED926E72FD600844CD1 /* Sunset Inverted-83.5@2x~ipad.png in Resources */,
+				9D1C40D726426E7F0032125A /* Default Inverted-83.5@2x~ipad.png in Resources */,
+				9D601EB826E72FAB00844CD1 /* Ocean@2x.png in Resources */,
+				9D601E7526E6CFFD00844CD1 /* Interstellar Inverted~ipad.png in Resources */,
+				E95AC1C62BC552D300C76849 /* Icon-App-76x76@2x.png in Resources */,
+				9D601E9026E6D04E00844CD1 /* Silver-83.5@2x~ipad.png in Resources */,
+				9D601EA726E6D06C00844CD1 /* Gold-83.5@2x~ipad.png in Resources */,
+				9D601E7426E6CFFD00844CD1 /* Interstellar Inverted@3x.png in Resources */,
+				E95AC1C92BC552D300C76849 /* Icon-App-20x20@1x.png in Resources */,
+				E95AC1CF2BC552D300C76849 /* Icon-App-40x40@2x.png in Resources */,
+				9D601E6826E6CFC900844CD1 /* Interstellar~ipad.png in Resources */,
+				E95AC1C52BC552D300C76849 /* iTunesArtwork@1x.png in Resources */,
+				9D601E8F26E6D04E00844CD1 /* Silver~ipad.png in Resources */,
+				9D816A2E2642562A00DED7F8 /* Light@2x~ipad.png in Resources */,
+				9D1C40CE26426E740032125A /* Default Inverted@2x.png in Resources */,
+				9D601ED526E72FD600844CD1 /* Sunset Inverted@2x.png in Resources */,
+				9D601E8726E6D03E00844CD1 /* Bronze Inverted~ipad.png in Resources */,
+				9D601E9B26E6D06000844CD1 /* Silver Inverted@2x~ipad.png in Resources */,
+				9D601ECB26E72FC900844CD1 /* Sunset@2x~ipad.png in Resources */,
+				9D601E9A26E6D06000844CD1 /* Silver Inverted~ipad.png in Resources */,
+				E95AC1D42BC552D300C76849 /* Icon-App-29x29@2x.png in Resources */,
+				9D601E9926E6D06000844CD1 /* Silver Inverted-83.5@2x~ipad.png in Resources */,
+				E95AC1C72BC552D300C76849 /* Icon-App-29x29@1x.png in Resources */,
+				9D601E6B26E6CFC900844CD1 /* Interstellar-83.5@2x~ipad.png in Resources */,
+				9D601E7226E6CFFD00844CD1 /* Interstellar Inverted@2x.png in Resources */,
+				9D601E6926E6CFC900844CD1 /* Interstellar@2x~ipad.png in Resources */,
+				9D601E9C26E6D06000844CD1 /* Silver Inverted@2x.png in Resources */,
+				9D1C40D626426E7F0032125A /* Default Inverted~ipad.png in Resources */,
+				9D601E8826E6D03E00844CD1 /* Bronze Inverted-83.5@2x~ipad.png in Resources */,
+				9D601E7C26E6D02200844CD1 /* Bronze~ipad.png in Resources */,
+				9D601ED726E72FD600844CD1 /* Sunset Inverted@3x.png in Resources */,
+				E95AC1D62BC552D300C76849 /* iTunesArtwork@3x.png in Resources */,
+				9D601EA426E6D06C00844CD1 /* Gold@3x.png in Resources */,
+				9D601ECC26E72FC900844CD1 /* Sunset~ipad.png in Resources */,
+				9D816A412642564E00DED7F8 /* Default~ipad.png in Resources */,
+				9D601ECF26E72FC900844CD1 /* Sunset@3x.png in Resources */,
+				9D8169F5263FA48500DED7F8 /* Light@2x.png in Resources */,
+				E95AC1CE2BC552D300C76849 /* Icon-App-29x29@3x.png in Resources */,
+				E95AC1CB2BC552D300C76849 /* Icon-App-20x20@3x.png in Resources */,
+				9D601EC226E72FBC00844CD1 /* Ocean Inverted@3x.png in Resources */,
+				9D8169EE263FA47A00DED7F8 /* Dark@3x.png in Resources */,
+				9D601EA526E6D06C00844CD1 /* Gold~ipad.png in Resources */,
+				9D816A392642563D00DED7F8 /* Dark@2x~ipad.png in Resources */,
+				9D1C40D826426E7F0032125A /* Default Inverted@2x~ipad.png in Resources */,
+				9D601E7B26E6D02200844CD1 /* Bronze-83.5@2x~ipad.png in Resources */,
+				9D601EBB26E72FAB00844CD1 /* Ocean-83.5@2x~ipad.png in Resources */,
+				9D601EB026E6D07A00844CD1 /* Gold Inverted-83.5@2x~ipad.png in Resources */,
+				9D601E8526E6D03E00844CD1 /* Bronze Inverted@2x~ipad.png in Resources */,
+				E95AC1D52BC552D300C76849 /* iTunesArtwork@2x.png in Resources */,
+				9D601ECD26E72FC900844CD1 /* Sunset-83.5@2x~ipad.png in Resources */,
+				9D8169F4263FA48500DED7F8 /* Light@3x.png in Resources */,
+				9D601E9326E6D04E00844CD1 /* Silver@3x.png in Resources */,
+				9D601E6A26E6CFC900844CD1 /* Interstellar@2x.png in Resources */,
+				9D601ECE26E72FC900844CD1 /* Sunset@2x.png in Resources */,
+				9D601ED626E72FD600844CD1 /* Sunset Inverted@2x~ipad.png in Resources */,
+				9D816A372642563D00DED7F8 /* Dark~ipad.png in Resources */,
+				E95AC1CD2BC552D300C76849 /* Icon-App-20x20@2x.png in Resources */,
+				E95AC1CA2BC552D300C76849 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				E95AC1CC2BC552D300C76849 /* ItunesArtwork@2x.png in Resources */,
+				9D8169ED263FA47A00DED7F8 /* Dark@2x.png in Resources */,
+				E95AC1D02BC552D300C76849 /* Icon-App-60x60@3x.png in Resources */,
+				9D601EA626E6D06C00844CD1 /* Gold@2x.png in Resources */,
+				9D601EB926E72FAB00844CD1 /* Ocean~ipad.png in Resources */,
+				9D816A422642564E00DED7F8 /* Default-83.5@2x~ipad.png in Resources */,
+				9D601EC426E72FBC00844CD1 /* Ocean Inverted@2x.png in Resources */,
+				9D816A382642563D00DED7F8 /* Dark-83.5@2x~ipad.png in Resources */,
+				9D601EC326E72FBC00844CD1 /* Ocean Inverted-83.5@2x~ipad.png in Resources */,
+				E95AC2042BC555E100C76849 /* HDefault@1.png in Resources */,
+				9D601EAE26E6D07A00844CD1 /* Gold Inverted@3x.png in Resources */,
+				9D601E8926E6D03E00844CD1 /* Bronze Inverted@3x.png in Resources */,
+				9D601ED826E72FD600844CD1 /* Sunset Inverted~ipad.png in Resources */,
+				9D601E9126E6D04E00844CD1 /* Silver@2x.png in Resources */,
+				E95AC1D32BC552D300C76849 /* Icon-App-40x40@3x.png in Resources */,
+				9D601EB126E6D07A00844CD1 /* Gold Inverted@2x.png in Resources */,
+				9DAB831F25FECAD400F5C42E /* Preview Assets.xcassets in Resources */,
+				9D816A302642562A00DED7F8 /* Light~ipad.png in Resources */,
+				9DAB831C25FECAD400F5C42E /* Assets.xcassets in Resources */,
+				9D601E9D26E6D06000844CD1 /* Silver Inverted@3x.png in Resources */,
+				9D601EB726E72FAB00844CD1 /* Ocean@2x~ipad.png in Resources */,
+				E95AC1D12BC552D300C76849 /* Icon-App-60x60@2x.png in Resources */,
+				9D601EBA26E72FAB00844CD1 /* Ocean@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB832325FECAD400F5C42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB832E25FECAD400F5C42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DAB831025FECAD300F5C42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6E5392262CF1AF008FD7C1 /* UserPreferences+CoreDataProperties.swift in Sources */,
+				9D3808EA26D3709C0058DE1E /* StatisticsView.swift in Sources */,
+				9D601E5F26E09D4600844CD1 /* BarChartCellView.swift in Sources */,
+				9D76355A262009230026D948 /* MapView.swift in Sources */,
+				9D62F4DB2634F69600E28991 /* HistoryMetricView.swift in Sources */,
+				9DF9304526DCAB0600D4EEC5 /* HikingSingleRecordView.swift in Sources */,
+				9D75E29226C85C9C00DE536D /* BikeRideSortPopoverView.swift in Sources */,
+				9DC7583B2809506300BB2953 /* HikingRecords.swift in Sources */,
+				9D8169BC263E0C5200DED7F8 /* SortChoice.swift in Sources */,
+				9DF9304926DDE3F400D4EEC5 /* HikingChartsView.swift in Sources */,
+				9D62F4EF2636064100E28991 /* LargeSingleMetricView.swift in Sources */,
+				9D601E5926E0732100844CD1 /* SingleChartListCellView.swift in Sources */,
+				9D8169FA263FA4CE00DED7F8 /* IconNames.swift in Sources */,
+				9DEAD6C5263257A500392D88 /* BikeRide+CoreDataProperties.swift in Sources */,
+				9D6E5374262CE773008FD7C1 /* ColourChoice.swift in Sources */,
+				9D601E5D26E0992500844CD1 /* DateDistanceExtension.swift in Sources */,
+				9D601E5B26E085B700844CD1 /* HikingChartsViewModel.swift in Sources */,
+				9DAB831A25FECAD300F5C42E /* CycleView.swift in Sources */,
+				9D62F4EA2636020000E28991 /* LargeMetricsView.swift in Sources */,
+				9DAB837C25FEDEF100F5C42E /* TimerViewModel.swift in Sources */,
+				9DEAD6CB2632589500392D88 /* BikeRideStorage.swift in Sources */,
+				9DC758392807A74900BB2953 /* Preferences.swift in Sources */,
+				9DF9305326DE06A600D4EEC5 /* Medal.swift in Sources */,
+				9DCD21ED263638F200506FA5 /* UnitsChoice.swift in Sources */,
+				9DF9304326DCAAD300D4EEC5 /* HikingRecordsView.swift in Sources */,
+				9D62F4E02634F7CC00E28991 /* MetricsFormatting.swift in Sources */,
+				9DAB837025FED0A300F5C42E /* HistoryView.swift in Sources */,
+				9DAB835E25FECCB000F5C42E /* MainView.swift in Sources */,
+				9DEAD6BE262FBFF900392D88 /* MapSystemImageButton.swift in Sources */,
+				9D1ED54D2643CF5A005A97ED /* UIAppearViewController.swift in Sources */,
+				9D816A0F263FBD0600DED7F8 /* HikingStatus.swift in Sources */,
+				9D55B9F726522D8D00B622E5 /* RouteRenameModalView.swift in Sources */,
+				9D6E5357262BB299008FD7C1 /* ColourView.swift in Sources */,
+				9D8169DC263F815600DED7F8 /* ChangeAppIconView.swift in Sources */,
+				9D2F48F72650751200094575 /* RouteNameModalView.swift in Sources */,
+				9DEAD6B6262D423E00392D88 /* AboutAppView.swift in Sources */,
+				9D2F48F9265075FC00094575 /* ModalViewExtension.swift in Sources */,
+				9DF9304B26DDE81900D4EEC5 /* ActivityAwardsView.swift in Sources */,
+				9DF9303C26DB439300D4EEC5 /* Records+CoreDataProperties.swift in Sources */,
+				9D62F4E52635FD6600E28991 /* SmallMetricsView.swift in Sources */,
+				9DA60D642875617600072DA2 /* SupportView.swift in Sources */,
+				9D6E534F262BAEE0008FD7C1 /* SettingsView.swift in Sources */,
+				9DF9304F26DDFAC400D4EEC5 /* SingleActivityAwardView.swift in Sources */,
+				9DCD21F72636426700506FA5 /* BikeRide+Extensions.swift in Sources */,
+				9D6E5386262CECFA008FD7C1 /* GoHiking.xcdatamodeld in Sources */,
+				9DAB837525FED2F800F5C42E /* TimerButton.swift in Sources */,
+				9D6E5367262CE32F008FD7C1 /* UnitsView.swift in Sources */,
+				9D601E6126E09D9A00844CD1 /* BarChartView.swift in Sources */,
+				9D6E532F2623CCBF008FD7C1 /* LocationViewModel.swift in Sources */,
+				9DA60D6228755AF900072DA2 /* UIApplicationExtension.swift in Sources */,
+				9D6E53492628071B008FD7C1 /* MapWithSpeedView.swift in Sources */,
+				9DF9303B26DB439300D4EEC5 /* Records+CoreDataClass.swift in Sources */,
+				9DAB831825FECAD300F5C42E /* GoHikingApp.swift in Sources */,
+				9D816A1E2641BAD000DED7F8 /* ResetView.swift in Sources */,
+				9D2F48FB26507EC500094575 /* RouteNamingViewModel.swift in Sources */,
+				9D2F48FE265097F000094575 /* Category.swift in Sources */,
+				9D601E5626DEF6E100844CD1 /* ActivityAwardsViewModel.swift in Sources */,
+				9D9E8BEF28AE179C0057BCAB /* SyncSettingsView.swift in Sources */,
+				9D9776E52633B0E70048B504 /* BikeRideListView.swift in Sources */,
+				9D9776EA2633B4050048B504 /* SingleBikeRideView.swift in Sources */,
+				9DEAD6C4263257A500392D88 /* BikeRide+CoreDataClass.swift in Sources */,
+				9D6E5391262CF1AF008FD7C1 /* UserPreferences+CoreDataClass.swift in Sources */,
+				9D1ED55026448F4F005A97ED /* HikingHistorySettingsView.swift in Sources */,
+				9DF9305126DE03BC00D4EEC5 /* EmojiImageExtension.swift in Sources */,
+				9D6E538B262CEE0A008FD7C1 /* PersistenceController.swift in Sources */,
+				9DCD21F226363D8D00506FA5 /* BikeRideListViewModel.swift in Sources */,
+				9DA60D60287558D000072DA2 /* ReviewManager.swift in Sources */,
+				9DF9304726DCABA400D4EEC5 /* RecordsFormatting.swift in Sources */,
+				9DF9304D26DDFA4E00D4EEC5 /* LockedIconCoverView.swift in Sources */,
+				9D62F4D62634DE4A00E28991 /* MapSnapshotView.swift in Sources */,
+				9D75E29426C8636F00DE536D /* BikeRideFilterSheetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB832125FECAD400F5C42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB832A25FECAD400F5C42E /* GoCyclingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB832C25FECAD400F5C42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB833525FECAD400F5C42E /* GoCyclingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DAB832725FECAD400F5C42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DAB831325FECAD300F5C42E /* Go Hiking */;
+			targetProxy = 9DAB832625FECAD400F5C42E /* PBXContainerItemProxy */;
+		};
+		9DAB833225FECAD400F5C42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DAB831325FECAD300F5C42E /* Go Hiking */;
+			targetProxy = 9DAB833125FECAD400F5C42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DAB833725FECAD400F5C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DAB833825FECAD400F5C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DAB833A25FECAD400F5C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Go Hiking/Go Hiking.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Go Hiking/Preview Content\"";
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Go Hiking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hopkins.GoHiking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAB833B25FECAD400F5C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Go Hiking/Go Hiking.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Go Hiking/Preview Content\"";
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Go Hiking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hopkins.GoHiking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DAB833D25FECAD400F5C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = "Go HikingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hopkins.Go-HikingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Hiking.app/Go Hiking";
+			};
+			name = Debug;
+		};
+		9DAB833E25FECAD400F5C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = "Go HikingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hopkins.Go-HikingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Hiking.app/Go Hiking";
+			};
+			name = Release;
+		};
+		9DAB834025FECAD400F5C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = "Go HikingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hopkins.Go-HikingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go Hiking";
+			};
+			name = Debug;
+		};
+		9DAB834125FECAD400F5C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = "Go HikingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hopkins.Go-HikingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go Hiking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DAB830F25FECAD300F5C42E /* Build configuration list for PBXProject "Go Hiking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB833725FECAD400F5C42E /* Debug */,
+				9DAB833825FECAD400F5C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB833925FECAD400F5C42E /* Build configuration list for PBXNativeTarget "Go Hiking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB833A25FECAD400F5C42E /* Debug */,
+				9DAB833B25FECAD400F5C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB833C25FECAD400F5C42E /* Build configuration list for PBXNativeTarget "Go HikingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB833D25FECAD400F5C42E /* Debug */,
+				9DAB833E25FECAD400F5C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB833F25FECAD400F5C42E /* Build configuration list for PBXNativeTarget "Go HikingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB834025FECAD400F5C42E /* Debug */,
+				9DAB834125FECAD400F5C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D6E5384262CECFA008FD7C1 /* GoHiking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D6E5385262CECFA008FD7C1 /* Main.xcdatamodel */,
+			);
+			currentVersion = 9D6E5385262CECFA008FD7C1 /* Main.xcdatamodel */;
+			path = GoHiking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DAB830C25FECAD300F5C42E /* Project object */;
+}
