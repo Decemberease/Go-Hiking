@@ -61,8 +61,8 @@ struct PersistenceController {
         }
     }
     
-    // MARK: Bike ride methods
-    func storeBikeRide(locations: [CLLocation?], speeds: [CLLocationSpeed?], distance: Double, elevations: [CLLocationDistance?], startTime: Date, time: Double) {
+    // MARK: Hiking methods
+    func storeHiking(locations: [CLLocation?], speeds: [CLLocationSpeed?], distance: Double, elevations: [CLLocationDistance?], startTime: Date, time: Double) {
         let context = container.viewContext
         
         var latitudes: [CLLocationDegrees] = []
@@ -94,51 +94,51 @@ struct PersistenceController {
             }
         }
         
-        let newBikeRide = BikeRide(context: context)
-        newBikeRide.hikingLatitudes = latitudes
-        newBikeRide.hikingLongitudes = longitudes
-        newBikeRide.hikingSpeeds = speedsValidated
-        newBikeRide.hikingDistance = distance
-        newBikeRide.hikingElevations = elevationsValidated
-        newBikeRide.hikingStartTime = startTime
-        newBikeRide.hikingTime = time
+        let newHiking = Hiking(context: context)
+        newHiking.hikingLatitudes = latitudes
+        newHiking.hikingLongitudes = longitudes
+        newHiking.hikingSpeeds = speedsValidated
+        newHiking.hikingDistance = distance
+        newHiking.hikingElevations = elevationsValidated
+        newHiking.hikingStartTime = startTime
+        newHiking.hikingTime = time
         // Default category
-        newBikeRide.hikingRouteName = "Uncategorized"
+        newHiking.hikingRouteName = "Uncategorized"
         
         do {
             try context.save()
-            print("Bike ride saved")
+            print("Hiking saved")
         } catch {
             print(error.localizedDescription)
         }
     }
     
     // Function to update the route name of a saved bike ride
-    func updateBikeRideRouteName(existingBikeRide: BikeRide, latitudes: [CLLocationDegrees], longitudes: [CLLocationDegrees], speeds: [CLLocationSpeed], distance: Double, elevations: [CLLocationDistance], startTime: Date, time: Double, routeName: String) {
+    func updateHikingRouteName(existingHiking: Hiking, latitudes: [CLLocationDegrees], longitudes: [CLLocationDegrees], speeds: [CLLocationSpeed], distance: Double, elevations: [CLLocationDistance], startTime: Date, time: Double, routeName: String) {
         let context = container.viewContext
         
         context.performAndWait {
-            existingBikeRide.hikingLatitudes = latitudes
-            existingBikeRide.hikingLongitudes = longitudes
-            existingBikeRide.hikingSpeeds = speeds
-            existingBikeRide.hikingDistance = distance
-            existingBikeRide.hikingElevations = elevations
-            existingBikeRide.hikingStartTime = startTime
-            existingBikeRide.hikingTime = time
-            existingBikeRide.hikingRouteName = routeName
+            existingHiking.hikingLatitudes = latitudes
+            existingHiking.hikingLongitudes = longitudes
+            existingHiking.hikingSpeeds = speeds
+            existingHiking.hikingDistance = distance
+            existingHiking.hikingElevations = elevations
+            existingHiking.hikingStartTime = startTime
+            existingHiking.hikingTime = time
+            existingHiking.hikingRouteName = routeName
             
             do {
                 try context.save()
-                print("Bike ride updated")
+                print("Hiking updated")
             } catch {
                 print(error.localizedDescription)
             }
         }
     }
     
-    func deleteAllBikeRides() {
+    func deleteAllHikings() {
         let context = container.viewContext
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "BikeRide")
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Hiking")
         fetchRequest.returnsObjectsAsFaults = false
         do {
             let results = try context.fetch(fetchRequest)
@@ -153,24 +153,24 @@ struct PersistenceController {
         }
     }
     
-    func updateBikeRideCategories(oldCategoriesToUpdate: [String], newCategoryNames: [String]) {
+    func updateHikingCategories(oldCategoriesToUpdate: [String], newCategoryNames: [String]) {
         let context = container.viewContext
         if (newCategoryNames.count > 0 && (newCategoryNames.count == oldCategoriesToUpdate.count)) {
             for (index, name) in newCategoryNames.enumerated() {
-                let fetchRequest: NSFetchRequest<BikeRide> = BikeRide.fetchRequest()
+                let fetchRequest: NSFetchRequest<Hiking> = Hiking.fetchRequest()
                 fetchRequest.predicate = NSPredicate(format: "hikingRouteName == %@", oldCategoriesToUpdate[index])
                 do {
                     let results = try context.fetch(fetchRequest)
-                    for ride in results {
-                        updateBikeRideRouteName(
-                            existingBikeRide: ride,
-                            latitudes: ride.hikingLatitudes,
-                            longitudes: ride.hikingLongitudes,
-                            speeds: ride.hikingSpeeds,
-                            distance: ride.hikingDistance,
-                            elevations: ride.hikingElevations,
-                            startTime: ride.hikingStartTime,
-                            time: ride.hikingTime,
+                    for hike in results {
+                        updateHikingRouteName(
+                            existingHiking: hike,
+                            latitudes: hike.hikingLatitudes,
+                            longitudes: hike.hikingLongitudes,
+                            speeds: hike.hikingSpeeds,
+                            distance: hike.hikingDistance,
+                            elevations: hike.hikingElevations,
+                            startTime: hike.hikingStartTime,
+                            time: hike.hikingTime,
                             routeName: name)
                     }
                 } catch {
@@ -183,13 +183,13 @@ struct PersistenceController {
     // Function to rename all routes of a given category to Uncategorized
     func removeCategory(categoryName: String) {
         let context = container.viewContext
-        let fetchRequest: NSFetchRequest<BikeRide> = BikeRide.fetchRequest()
+        let fetchRequest: NSFetchRequest<Hiking> = Hiking.fetchRequest()
         fetchRequest.predicate = NSPredicate(format: "hikingRouteName == %@", categoryName)
         do {
             let results = try context.fetch(fetchRequest)
             for ride in results {
-                updateBikeRideRouteName(
-                    existingBikeRide: ride,
+                updateHikingRouteName(
+                    existingHiking: ride,
                     latitudes: ride.hikingLatitudes,
                     longitudes: ride.hikingLongitudes,
                     speeds: ride.hikingSpeeds,
