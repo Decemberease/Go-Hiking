@@ -14,9 +14,9 @@ class HikingChartsViewModel: ObservableObject {
                                          "Activity in the Past 5 Weeks",
                                          "Activity in the Past 30 Weeks"]
     
-    @Published var pastWeekData: [BikeRide] = BikeRide.bikeRidesInPastWeek()
-    @Published var past5WeeksData: [BikeRide] = BikeRide.bikeRidesInPast5Weeks()
-    @Published var past30WeeksData: [BikeRide] = BikeRide.bikeRidesInPast30Weeks()
+    @Published var pastWeekData: [Hiking] = Hiking.HikingsInPastWeek()
+    @Published var past5WeeksData: [Hiking] = Hiking.HikingsInPast5Weeks()
+    @Published var past30WeeksData: [Hiking] = Hiking.HikingsInPast30Weeks()
     
     // Index 0-2 are distance data, indexes 3-5 are time data and indexes 6-8 are number of routes data
     @Published var pastData: [[Double]] = [[Double].init(repeating: 0.0, count: 7), [Double].init(repeating: 0.0, count: 5), [Double].init(repeating: 0.0, count: 6),
