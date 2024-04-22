@@ -40,7 +40,7 @@ struct ResetView: View {
             Alert(title: Text("Are you sure that you want to delete all stored Hiking routes?"),
                   message: Text("This action is not reversible."),
                   primaryButton: .destructive(Text("Delete")) {
-                    self.deleteAllBikeRides()
+                    self.deleteAllHikings()
                   },
                   secondaryButton: .cancel()
             )
@@ -76,8 +76,8 @@ struct ResetView: View {
         preferences.resetPreferences()
     }
     
-    func deleteAllBikeRides() {
-        persistenceController.deleteAllBikeRides()
+    func deleteAllHikings() {
+        persistenceController.deleteAllHikings()
     }
     
     func resetStoredStatistics() {
