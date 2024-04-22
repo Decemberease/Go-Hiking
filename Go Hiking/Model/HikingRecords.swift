@@ -227,7 +227,7 @@ class HikingRecords: ObservableObject {
     }
     
     // Should only ever be called once - used to migrate legacy Records to UserDefaults and NSUbiquitousKeyValueStore or create Records from existing BikeRides
-    public func initialRecordsMigration(existingRecords: Records?, existingBikeRides: [BikeRide]) {
+    public func initialRecordsMigration(existingRecords: Records?, existingHikings: [Hiking]) {
         if let records = existingRecords {
             UserDefaults.standard.set(records.totalHikingTime, forKey: HikingRecords.keys[0])
             UserDefaults.standard.set(records.totalHikingDistance, forKey: HikingRecords.keys[1])
@@ -249,8 +249,8 @@ class HikingRecords: ObservableObject {
             UserDefaults.standard.set(Int(records.totalHikingRoutes), forKey: HikingRecords.keys[9])
         }
         else {
-            if existingBikeRides.count > 0 {
-                let values = Records.getDefaultRecordsValues(bikeRides: existingBikeRides)
+            if existingHikings.count > 0 {
+                let values = Records.getDefaultRecordsValues(Hikings: existingHikings)
                 
                 UserDefaults.standard.set(values.totalTime, forKey: HikingRecords.keys[0])
                 UserDefaults.standard.set(values.totalDistance, forKey: HikingRecords.keys[1])
