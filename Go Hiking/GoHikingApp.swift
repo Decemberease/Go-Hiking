@@ -13,7 +13,7 @@ struct GoHikingApp: App {
     let persistenceController = PersistenceController.shared
     @Environment(\.scenePhase) var scenePhase
     
-    @StateObject var bikeRides: BikeRideStorage
+    @StateObject var Hikings: HikingStorage
     @StateObject var hikingStatus = HikingStatus()
     @StateObject var preferences = Preferences.shared
     @StateObject var records = HikingRecords.shared
@@ -27,15 +27,15 @@ struct GoHikingApp: App {
         
         // Retrieve stored data to be used by all views - create state objects for environment objects
         let managedObjectContext = persistenceController.container.viewContext
-        let bikeRidesStorage = BikeRideStorage(managedObjectContext: managedObjectContext)
-        self._bikeRides = StateObject(wrappedValue: bikeRidesStorage)
+        let HikingsStorage = HikingStorage(managedObjectContext: managedObjectContext)
+        self._Hikings = StateObject(wrappedValue: HikingsStorage)
     }
 
     var body: some Scene {
         WindowGroup {
             MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                .environmentObject(bikeRides)
+                .environmentObject(Hikings)
                 .environmentObject(records)
                 .environmentObject(hikingStatus)
                 .environmentObject(preferences)
@@ -51,7 +51,7 @@ struct GoHikingApp: App {
                         }
                         // Migrate existing Records
                         if let oldRecords = Records.getStoredRecords() {
-                            records.initialRecordsMigration(existingRecords: oldRecords, existingBikeRides: bikeRides.storedBikeRides)
+                            records.initialRecordsMigration(existingRecords: oldRecords, existingHikings: Hikings.storedHikings)
                         }
                     }
                     
