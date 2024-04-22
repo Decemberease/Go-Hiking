@@ -40,24 +40,24 @@ public class Records: NSManagedObject {
     }
     
     // Function to calculate the default values for the records object (if bike rides have been recorded) - returns a tuple corresponding to the records values
-    static func getDefaultRecordsValues(bikeRides: [BikeRide]) -> (totalDistance: Double, totalTime: Double, totalRoutes: Int64, unlockedIcons: [Bool], longestDistance: Double, longestTime: Double, fastestAvgSpeed: Double, longestDistanceDate: Date?, longestTimeDate: Date?, fastestAvgSpeedDate: Date?) {
+    static func getDefaultRecordsValues(Hikings: [Hiking]) -> (totalDistance: Double, totalTime: Double, totalRoutes: Int64, unlockedIcons: [Bool], longestDistance: Double, longestTime: Double, fastestAvgSpeed: Double, longestDistanceDate: Date?, longestTimeDate: Date?, fastestAvgSpeedDate: Date?) {
         // Calculate all values based on the bikeRides array
         var totalDistance: Double = 0.0
         var totalTime: Double = 0.0
         var bestAvgSpeed: Double = 0.0
         var bestAvgSpeedDate: Date? = nil
         
-        let totalRoutes: Int64 = Int64(bikeRides.count)
+        let totalRoutes: Int64 = Int64(Hikings.count)
         let unlockedIcons = [Bool](repeating: false, count: 6)
-        let longestDistanceRide: BikeRide? = bikeRides.max{ $0.hikingDistance < $1.hikingDistance }
-        let longestTimeRide: BikeRide? = bikeRides.max{ $0.hikingTime < $1.hikingTime }
+        let longestDistanceRide: Hiking? = Hikings.max{ $0.hikingDistance < $1.hikingDistance }
+        let longestTimeRide: Hiking? = Hikings.max{ $0.hikingTime < $1.hikingTime }
         let maxDistance: Double = longestDistanceRide?.hikingDistance ?? 0.0
         let maxDistanceDate: Date? = longestDistanceRide?.hikingStartTime
         let maxTime: Double = longestTimeRide?.hikingTime ?? 0.0
         let maxTimeDate: Date? = longestTimeRide?.hikingStartTime
         
         
-        for ride in bikeRides {
+        for ride in Hikings {
             // Routes longer than 1 KM can count for the best average speed
             if (ride.hikingDistance > 999) {
                 let maxSpeed = ride.hikingSpeeds.max()
