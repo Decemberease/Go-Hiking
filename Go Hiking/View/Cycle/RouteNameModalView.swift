@@ -23,11 +23,11 @@ struct RouteNameModalView: View {
     
     @ObservedObject var routeNamingViewModel = RouteNamingViewModel()
     
-    private var bikeRideToEdit: BikeRide?
+    private var HikingToEdit: Hiking?
     
-    init(showEditModal: Binding<Bool>, bikeRideToEdit: BikeRide?) {
-        if (bikeRideToEdit != nil) {
-            self.bikeRideToEdit = bikeRideToEdit
+    init(showEditModal: Binding<Bool>, HikingToEdit: Hiking?) {
+        if (HikingToEdit != nil) {
+            self.HikingToEdit = HikingToEdit
         }
         self._showEditModal = showEditModal
     }
@@ -55,7 +55,7 @@ struct RouteNameModalView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 Spacer()
                 // Extra option for existing routes where the category can be removed
-                if (self.bikeRideToEdit != nil) {
+                if (self.HikingToEdit != nil) {
                     Divider()
                     Button (action: {self.removeCategoryPressed()}) {
                         Text("Remove From Category")
@@ -71,7 +71,7 @@ struct RouteNameModalView: View {
                 .padding()
                 Divider()
                 Button (action: {self.presentationMode.wrappedValue.dismiss()}) {
-                    Text(self.bikeRideToEdit == nil ? "Save Without a Category" : "Cancel")
+                    Text(self.HikingToEdit == nil ? "Save Without a Category" : "Cancel")
                         .bold()
                 }
                 .padding()
@@ -103,7 +103,7 @@ struct RouteNameModalView: View {
                 }
                 Spacer()
                 // Extra option for existing routes where the category can be removed
-                if (self.bikeRideToEdit != nil) {
+                if (self.HikingToEdit != nil) {
                     Divider()
                     Button (action: {self.removeCategoryPressed()}) {
                         Text("Remove From Category")
@@ -118,7 +118,7 @@ struct RouteNameModalView: View {
                 .padding()
                 .disabled(!(self.routeNamingViewModel.routeNames.count > 0))
                 Divider()
-                if (self.bikeRideToEdit != nil) {
+                if (self.HikingToEdit != nil) {
                     Button (action: {self.presentationMode.wrappedValue.dismiss()}) {
                         Text("Cancel")
                             .bold()
@@ -131,8 +131,8 @@ struct RouteNameModalView: View {
         .presentation(isModal: self.showModally) {
         }
         .onAppear {
-            if (bikeRideToEdit != nil && bikeRideToEdit?.hikingRouteName != "Uncategorized") {
-                self.selectedNameIndex = routeNamingViewModel.routeNames.firstIndex(of: bikeRideToEdit!.hikingRouteName)!
+            if (HikingToEdit != nil && HikingToEdit?.hikingRouteName != "Uncategorized") {
+                self.selectedNameIndex = routeNamingViewModel.routeNames.firstIndex(of: HikingToEdit!.hikingRouteName)!
             }
             else {
                 self.selectedNameIndex = 0
@@ -150,13 +150,13 @@ struct RouteNameModalView: View {
         }
         
         // This means that we are in the Hike tab
-        if (self.bikeRideToEdit == nil) {
+        if (self.HikingToEdit == nil) {
             // Get most recent bike ride
-            let ride = self.routeNamingViewModel.allBikeRides[self.routeNamingViewModel.allBikeRides.count - 1]
+            let ride = self.routeNamingViewModel.allHikings[self.routeNamingViewModel.allHikings.count - 1]
             // Route name should be Uncategorized at this point
             if (ride.hikingRouteName == "Uncategorized") {
-                persistenceController.updateBikeRideRouteName(
-                    existingBikeRide: ride,
+                persistenceController.updateHikingRouteName(
+                    existingHiking: ride,
                     latitudes: ride.hikingLatitudes,
                     longitudes: ride.hikingLongitudes,
                     speeds: ride.hikingSpeeds,
@@ -171,9 +171,9 @@ struct RouteNameModalView: View {
             self.showModally = false
         }
         else {
-            let ride = self.bikeRideToEdit!
-            persistenceController.updateBikeRideRouteName(
-                existingBikeRide: ride,
+            let ride = self.HikingToEdit!
+            persistenceController.updateHikingRouteName(
+                existingHiking: ride,
                 latitudes: ride.hikingLatitudes,
                 longitudes: ride.hikingLongitudes,
                 speeds: ride.hikingSpeeds,
@@ -189,9 +189,9 @@ struct RouteNameModalView: View {
     }
     
     func removeCategoryPressed() {
-        let ride = self.bikeRideToEdit!
-        persistenceController.updateBikeRideRouteName(
-            existingBikeRide: ride,
+        let ride = self.HikingToEdit!
+        persistenceController.updateHikingRouteName(
+            existingHiking: ride,
             latitudes: ride.hikingLatitudes,
             longitudes: ride.hikingLongitudes,
             speeds: ride.hikingSpeeds,

@@ -11,7 +11,7 @@ import CoreData
 struct RouteRenameModalView: View {
     let persistenceController = PersistenceController.shared
     
-    @EnvironmentObject var bikeRides: BikeRideStorage
+    @EnvironmentObject var Hikings: HikingStorage
 
     @Environment(\.managedObjectContext) private var managedObjectContext
     @Environment(\.presentationMode) var presentationMode
@@ -121,7 +121,7 @@ struct RouteRenameModalView: View {
         }
         
         // Need to update names
-        persistenceController.updateBikeRideCategories(oldCategoriesToUpdate: oldNames, newCategoryNames: newNames)
+        persistenceController.updateHikingCategories(oldCategoriesToUpdate: oldNames, newCategoryNames: newNames)
 
         self.showEditModal = false
     }
