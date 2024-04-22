@@ -10,8 +10,8 @@ import SwiftUI
 
 class RouteNamingViewModel: ObservableObject {
 
-    @Published var allBikeRides: [BikeRide] = BikeRide.allBikeRides()
-    @Published var routeNames: [String] = BikeRide.allRouteNames()
+    @Published var allHikings: [Hiking] = Hiking.allHikings()
+    @Published var routeNames: [String] = Hiking.allRouteNames()
     
 }
 
