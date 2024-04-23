@@ -1,22 +1,19 @@
 # GoCycling
 
-## Available on the iOS App Store
-https://apps.apple.com/app/go-cycling/id1565861313
-
 ## App Icon
 
-![alt text](Screenshots/GoCyclingDefaultIcon1024.png?raw=true)
+<img src="https://lh7-us.googleusercontent.com/jRiZJ8q6rztuROC4fAEg7gU8aBGbEPpBT85qkj2dd289astUolcaw3IcHNB7JIGy8a4BBqy9etkoTcF06qi4J9KeRHkkqf3YroSY20F_mgIMqqTSZHKp_QGP8fI_ptvZ6rHHlWVq2H2GIWu-wiOiDV-s0g=s2048" alt="img" style="zoom: 25%;" />
 
 ## About
 
-Go Cycling is a cycling tracker app built exclusively for iOS with SwiftUI. It is intended to be extremely easy to use for cyclists of all levels.
+Go Hiking is a hiking tracker app built exclusively for iOS with SwiftUI. It is intended to be extremely easy to use for climbers of all levels.
 
-A key part of Go Cycling is it's privacy stance, there is no requirement for a sign in of any kind and all data is solely stored on the user's device. It also does not contain any advertisements.
+A key part of Go Hiking is it's privacy stance, there is no requirement for a sign in of any kind and all data is solely stored on the user's device. It also does not contain any advertisements.
 
-Go Cycling makes use of many of Apple's frameworks and API's including:
+Go Hiking makes use of many of Apple's frameworks and API's including:
 * Core Location for location data
 * MapKit for embedded maps throughout the app
-* Core Data for persistent data storage of cycling routes and user preferences
+* Core Data for persistent data storage of hiking routes and user preferences
 * CloudKit for iCloud storage and synchronization of routes, records and preferences
 * Combine for location update event processing
 
@@ -28,9 +25,9 @@ For iPads, this includes support for both landscape and portait modes along with
 
 ## Usage
 
-Note: For Go Cycling to track your current location, you must allow location access in Settings (the app will also ask for permission on the first launch). The location permissions must be set to "Always Allow" for location updates to occur while the app is not on the screen.
+Note: For Go Hiking to track your current location, you must allow location access in Settings (the app will also ask for permission on the first launch). The location permissions must be set to "Always Allow" for location updates to occur while the app is not on the screen.
 
-To use this app, first, start a new cycling route from the Cycle tab. The timer should start incrementing, you can choose to leave your device locked or unlocked.
+To use this app, first, start a new hiking route from the Cycle tab. The timer should start incrementing, you can choose to leave your device locked or unlocked.
 
 While the route is ongoing you will see metrics on the Cycle tab of your current progress as well as your path on the map.
 
@@ -40,7 +37,7 @@ More routes can be created in this same way and they can all be viewed, sorted a
 
 ## App Features
 
-Go Cycling has many features packed into four tabs; Cycle, History, Statistics and Settings. It also fully supports both light and dark mode, automatically setting the mode based on device settings.
+Go Hiking has many features packed into four tabs; Cycle, History, Statistics and Settings. It also fully supports both light and dark mode, automatically setting the mode based on device settings.
 
 Note: All screenshots shown were taken on an iPhone 12 Pro Max simulator.
 
@@ -52,9 +49,9 @@ Note: All screenshots shown were taken on an iPhone 12 Pro Max simulator.
 * Assign your route to a new/existing category upon completion
 
 ### Device Screenshots of the Cycle Tab
-Cycle Tab Without Ongoing Route | Cycle Tab Without Ongoing Route Dark | Cycle Tab With Ongoing Route | Cycle Tab With Ongoing Route Dark
-------------------------------- | ------------------------------------ | ---------------------------- | ---------------------------------
-![alt text](Screenshots/AppStoreVersion1_2_0/1.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/2.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/3.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/4.png?raw=true)
+ Cycle Tab Without Ongoing Route                              | Cycle Tab Without Ongoing Route Dark                         | Cycle Tab With Ongoing Route                  | Cycle Tab With Ongoing Route Dark             
+ ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- 
+ <img src="/Users/xj/Library/Application Support/typora-user-images/image-20240424001717358.png" alt="image-20240424001717358" /> | ![7264a7c2f3a80ce7785bbb68f6889a7d](/Users/xj/Downloads/7264a7c2f3a80ce7785bbb68f6889a7d.PNG) | ![WechatIMG87](D:\1178051832\WechatIMG87.png) | ![WechatIMG89](D:\1178051832\WechatIMG89.png) 
 
 ### Features of the History Tab
 * View all past cycling routes in an easily readable list
@@ -66,7 +63,7 @@ Cycle Tab Without Ongoing Route | Cycle Tab Without Ongoing Route Dark | Cycle T
 ### Device Screenshots of the History Tab
 Cycling History List View | Single Cycling Route Detailed View | Single Cycling Route Detailed View Dark | Filter Cycling History
 ------------------------------- | ------------------------------------ | ---------------------------- | ---------------------------------
-![alt text](Screenshots/AppStoreVersion1_2_0/5.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/6.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/12.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/16.png?raw=true)
+ |  |  |  
 
 ### Features of the Statistics Tab
 * View detailed charts of cycling activity of past week, 5 weeks and 30 weeks
@@ -77,7 +74,7 @@ Cycling History List View | Single Cycling Route Detailed View | Single Cycling 
 ### Device Screenshots of the Statistics Tab
 Cycling Statistics Comparison View | Cycling Statistics Past Week Chart | Cycling Statistics Past Week Chart With Selection | Cycling Records View Dark
 ------------------------------- | ------------------------------------ | ---------------------------- | ---------------------------------
-![alt text](Screenshots/AppStoreVersion1_2_0/7.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/8.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/9.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/15.png?raw=true)
+<img src="D:\1178051832\4.png" alt="4"  /> | ![5](D:\1178051832\5.png) | ![3](D:\1178051832\3.png) | <img src="D:\1178051832\7.jpg" alt="7" style="zoom: 200%;" /> 
 
 ### Settings Feautures Throughout the App
 * Customize the app theme and app icon to fit your preferences
@@ -89,7 +86,7 @@ Cycling Statistics Comparison View | Cycling Statistics Past Week Chart | Cyclin
 ### Device Screenshots of Settings Features
 General Settings View | General Settings View Dark | Changing App Icon to Default | Setting Cycling History Sort Order
 ------------------------------- | ------------------------------------ | ---------------------------- | ---------------------------------
-![alt text](Screenshots/AppStoreVersion1_3_0/10.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_3_0/11.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_3_0/12.png?raw=true) | ![alt text](Screenshots/AppStoreVersion1_2_0/17.png?raw=true)
+ |  |  |  
 
 ## Future Development
 
