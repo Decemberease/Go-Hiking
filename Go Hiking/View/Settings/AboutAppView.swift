@@ -22,28 +22,6 @@ struct AboutAppView: View {
             Spacer()
             Text(appVersionNumber)
         }
-        HStack {
-            Text("Go Hiking is Open Source")
-            Spacer()
-            Button(action: {
-                UIApplication.shared.open(openSourceURL, options: [:], completionHandler: nil)
-            }) {
-                Image(colorScheme == .dark ? "GitHub-Light" : "GitHub-Dark")
-            }
-        }
-        Button(action: {
-            self.isShareSheetPresented = true
-        }) {
-            Text("Share")
-        }
-        .sheet(isPresented: $isShareSheetPresented, onDismiss: {
-        }, content: {
-            ActivityViewController(activityItems: [ReviewManager.getProductURL()])
-        })
-        
-        if let reviewURL = ReviewManager.getWriteReviewURL() {
-            Link("Review Go Hiking", destination: reviewURL)
-        }
     }
 }
 
