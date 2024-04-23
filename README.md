@@ -51,7 +51,7 @@ Note: All screenshots shown were taken on an iPhone 12 Pro Max simulator.
 ### Device Screenshots of the Cycle Tab
  Cycle Tab Without Ongoing Route                              | Cycle Tab To End Current Route                               | Cycle Tab For Pause Or Stop Route                            | Cycle Tab With Information                                   
  ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ 
- ![img](https://lh7-us.googleusercontent.com/A-C_tmLOYN5OXtlZBDzSKPT51xa1cuL-LWE4cTLKxFKG6Q0HBYGUwghKopX4g-DCcv13md_Af0oiM5iPMP6SB5IoOlM66aTA6u2VaCu-6vr1zKG_EwxSf5wt2TxcdeVWtMPPrWGDLIUxnEjJCz4l3AgIIw=s2048) | ![7264a7c2f3a80ce7785bbb68f6889a7d](/Users/xj/Downloads/7264a7c2f3a80ce7785bbb68f6889a7d.PNG) | ![img](https://lh7-us.googleusercontent.com/Nveye-8wRthbr_hMuFlo3RmJdFFtVE2yQLvteQWqytp8KcRQ_mu4upeDi7Ypq8fw0J-r_PCrJ3sb8Xymx6WzhQWJ86nw8mTcsN_3fd_cmkdKfKIub_XCbX-HwVBxe2GMoDjY2jCB5CnQKIWKFXcqwbBb-A=s2048) | ![img](https://lh7-us.googleusercontent.com/iT34RCdaoPUDjssThpD9DUDZ33ZnVv8yzfAh30oUQ9-JA24BKQFf9_Kzu6xzoS4YxhomCQCh_B5oiueW_MEA6MB8JtqDSKCByc53r91cnI1_H9mmKNaaZ4lvCwWMA0kc9LDcoZi1a_gMJrYkaa8CpUqY2Q=s2048) 
+ ![img](https://lh7-us.googleusercontent.com/A-C_tmLOYN5OXtlZBDzSKPT51xa1cuL-LWE4cTLKxFKG6Q0HBYGUwghKopX4g-DCcv13md_Af0oiM5iPMP6SB5IoOlM66aTA6u2VaCu-6vr1zKG_EwxSf5wt2TxcdeVWtMPPrWGDLIUxnEjJCz4l3AgIIw=s2048) | ![img](https://lh7-us.googleusercontent.com/8qnAkjfHIesJGc6Jkg3vqQZ2fDG-_7nC5eW63ZQub7jzOpXooL7M3vGlmMMctWAwE0BDLVJzgo9O2riyDTkMpI2QqCsyLMIJ-5z1QUg6eaM5OdVAf-osCQ4E3UbnGXVIzvP37jKw09yTgiFT7_T_bzgPdQ=s2048) | ![img](https://lh7-us.googleusercontent.com/Nveye-8wRthbr_hMuFlo3RmJdFFtVE2yQLvteQWqytp8KcRQ_mu4upeDi7Ypq8fw0J-r_PCrJ3sb8Xymx6WzhQWJ86nw8mTcsN_3fd_cmkdKfKIub_XCbX-HwVBxe2GMoDjY2jCB5CnQKIWKFXcqwbBb-A=s2048) | ![img](https://lh7-us.googleusercontent.com/iT34RCdaoPUDjssThpD9DUDZ33ZnVv8yzfAh30oUQ9-JA24BKQFf9_Kzu6xzoS4YxhomCQCh_B5oiueW_MEA6MB8JtqDSKCByc53r91cnI1_H9mmKNaaZ4lvCwWMA0kc9LDcoZi1a_gMJrYkaa8CpUqY2Q=s2048) 
 
 ### Features of the History Tab
 * View all past hiking routes in an easily readable list
@@ -74,7 +74,7 @@ Hiking History List View | Reorder Hiking History | Rename Hiking Route | Single
 ### Device Screenshots of the Statistics Tab
 Hiking Statistics Comparison View | Hiking Statistics Records | Hiking Activity Awards | Hiking Statistics Distance Chart 
 ------------------------------- | ------------------------------------ | ---------------------------- | ---------------------------------
- ![img](https://lh7-us.googleusercontent.com/OjMx2ogstrnsDV72vtXVHFumzKtobh4dabTj7snTsevue9WOroEk9saE172VcrG72X1KDHwvnmQGIVyKV3WAa5NcsCBlZxAvC9GoBnOrHakx7NjKbbXPVIbeVp7Vnq7WlNfUG1c-TbgJ68Cp3yr0qQnrbA=s2048) | ![img](https://lh7-us.googleusercontent.com/3xFmxDZTsg7eF_YXBmoMsUUMaZDy6HemfgWIlTP0Qj5sLObuyWw8RJ0tathuTs41k93oTAJalobFbsGXsiAh_HoYsOsxE2W3YMxl07N4vJuEGcgoWUsYYX1KyoqqS581mCmOSlXJNsIypiamNlKevfC3cA=s2048) | ![img](https://lh7-us.googleusercontent.com/VRqV8q4XDYO9aonKqwaJBA8i18DC_Yz0y_rHomMP4pbl6lh8o7fNJVdjgTT7wGWUVXYKAWlC7zfHOp2djFsx25_nGDSOi8Pw8dnT_eq5CtzeFTQx1sqj-nfH-B1iP-er-BNNyD_qeM0lAmGSrL6N-VWuAg=s2048) | <img src="https://lh7-us.googleusercontent.com/OaL7uaqfHXoHl4RKYbwfzKU1v0q6s6Py25uCnaCuLbt6AXH_QBrTaKTrdl3_rX11K_uS3TvmM8lCqVR2y1oamtULXodK97wHQcKqG3Kxhjsne94dUZYJULTG9NxqRrWKW1sNTZds3eaVc7TkS5dmOGzQBg=s2048" alt="img" style="zoom:200%;" /> 
+ ![img](https://lh7-us.googleusercontent.com/OjMx2ogstrnsDV72vtXVHFumzKtobh4dabTj7snTsevue9WOroEk9saE172VcrG72X1KDHwvnmQGIVyKV3WAa5NcsCBlZxAvC9GoBnOrHakx7NjKbbXPVIbeVp7Vnq7WlNfUG1c-TbgJ68Cp3yr0qQnrbA=s2048) | ![img](https://lh7-us.googleusercontent.com/3xFmxDZTsg7eF_YXBmoMsUUMaZDy6HemfgWIlTP0Qj5sLObuyWw8RJ0tathuTs41k93oTAJalobFbsGXsiAh_HoYsOsxE2W3YMxl07N4vJuEGcgoWUsYYX1KyoqqS581mCmOSlXJNsIypiamNlKevfC3cA=s2048) | ![img](https://lh7-us.googleusercontent.com/VRqV8q4XDYO9aonKqwaJBA8i18DC_Yz0y_rHomMP4pbl6lh8o7fNJVdjgTT7wGWUVXYKAWlC7zfHOp2djFsx25_nGDSOi8Pw8dnT_eq5CtzeFTQx1sqj-nfH-B1iP-er-BNNyD_qeM0lAmGSrL6N-VWuAg=s2048) | ![img](https://lh7-us.googleusercontent.com/fNW_uzk7QS0mvVH1YYKky2CrRD4QLu8JX2S7C7-ApwQh8KNjigpesQVnS8IA2CtcFlK-49ddMhoRa4k_RfG7QKZmXj869WQPV4vXj5SzfvoRWA10tkSOdg8vNzOjG5bJXy5-v0F0FtG2ngpC9nobtClt3A=s2048) 
 
 ### Settings Feautures Throughout the App
 * Customize the app theme and app icon to fit your preferences
@@ -84,9 +84,9 @@ Hiking Statistics Comparison View | Hiking Statistics Records | Hiking Activity 
 * Selected sort order in the History tab will persist through future usage
 
 ### Device Screenshots of Settings Features
-General Settings View | iCloud Or Support About App |      |      
-------------------------------- | ------------------------------------ | ---------------------------- | ---------------------------------
- <img src="https://lh7-us.googleusercontent.com/G6R5KlCxXLWfxbz0kz7bqDftmpFG2fNL4GlYWCvqvRQ0Gf5UT3uF8GZHbu-qHQ19BKwbc16Wl-LLXsmDfnDhIVh65IBs5CmE28goQnJTzar1QQn_F8D-NdXVKS3iMZsAF--JvwrSTxeNPIKR6Yg30llpoA=s2048" alt="img" style="zoom: 33%;" /> | <img src="https://lh7-us.googleusercontent.com/597y0kXIE0MQvj4abM85XeNoVG2B7Y8JdaUu6O9bGOVb3I42TqxxkyLVAx2UV9mLCeQ9QbxleKqH1-UlmAt4l1sXWWiFaZV7fkbPDX_TVTXbVS2KgQ_8WKBwJ6fvjCNDNf-GlTz2Hez2LHamaa9AZ5M6Mg=s2048" alt="img" style="zoom: 33%;" /> ||
+General Settings View | iCloud Or Support About App 
+:------------------------------ | :----------------------------------- 
+ <img src="https://lh7-us.googleusercontent.com/G6R5KlCxXLWfxbz0kz7bqDftmpFG2fNL4GlYWCvqvRQ0Gf5UT3uF8GZHbu-qHQ19BKwbc16Wl-LLXsmDfnDhIVh65IBs5CmE28goQnJTzar1QQn_F8D-NdXVKS3iMZsAF--JvwrSTxeNPIKR6Yg30llpoA=s2048" alt="img" style="zoom: 33%;" /> | <img src="https://lh7-us.googleusercontent.com/597y0kXIE0MQvj4abM85XeNoVG2B7Y8JdaUu6O9bGOVb3I42TqxxkyLVAx2UV9mLCeQ9QbxleKqH1-UlmAt4l1sXWWiFaZV7fkbPDX_TVTXbVS2KgQ_8WKBwJ6fvjCNDNf-GlTz2Hez2LHamaa9AZ5M6Mg=s2048" alt="img" style="zoom: 33%;" /> 
 
 ## Future Development
 
